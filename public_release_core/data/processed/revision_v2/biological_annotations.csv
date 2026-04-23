@@ -1,0 +1,8 @@
+,binding_site,clinical_evolution,fitness_cost,mechanism,fold_change
+N57H,NTD-CTD interface,Emerged in clinical trials (CAPELLA),<10% WT,Disrupts lenacapavir pocket binding,2951
+M66I,Hydrophobic pocket,Most common resistance mutation,<10% WT,Reduces hydrophobic interactions,1950
+Q67H,NTD-CTD interface,Frequently paired with N74D,~20% WT,Charge alteration affects binding,5
+N74D,NTD-CTD interface,Synergistic with Q67H,~15% WT,Electrostatic repulsion,20
+K70R,NTD helix,Natural polymorphism in subtype A1,Minimal,Conservative substitution,Variable
+A105T,CTD,Compensatory mutation,Restores fitness,Stabilizes capsid structure,Modulator
+M66I+N74D+A105T,Multi-site,Triple mutant from CAPELLA,<10% WT (A105T compensates),Combined resistance + fitness restoration,1337

@@ -1,0 +1,9 @@
+claim_id,claim_text,value_reported,source_file,evidence_locator,source_id,bib_key,manuscript_anchor
+C1,Total harmonized observations and complete-case count,26 total; 23 complete,data/processed/revision_v2/harmonization_validation.json,total_observations=26; complete_observations=23,MULTI_SOURCE,UNMAPPED,Methods Data Harmonization + Results Evidence Landscape
+C2,Model comparison M1 best support,M1 AIC=40.9206; R2=0.94645,results/revision_v2/model_comparison.csv,row M1_mutation_only,MULTI_SOURCE,UNMAPPED,Results Model Comparison (Figure 2C)
+C3,Subtype random effect near-zero boundary,2.50479e-10,results/revision_v2/model_comparison.csv,row M2_mutation_subtype random_effect_var,MULTI_SOURCE,UNMAPPED,Results Subtype Additional Value
+C4,Top single-mutation FC values,N57H 4890; M66I 3200; L56V 72,data/processed/revision_v2/harmonized_phenotype_data.csv,"OBS_006/015 (N57H), OBS_008/009 (M66I), OBS_005/014 (L56V)",MULTI_SOURCE,UNMAPPED,Results Core Phenotypic Evidence
+C5,Q67H+K70R context range,0.59 to 46.3 (76-fold range),data/processed/revision_v2/harmonized_phenotype_data.csv,"OBS_013, OBS_025, OBS_026","PMC9600929; JAC2025; JID2025","Bester2022; Hansen2025; Margot2025",Results Context-dependent Effects (Figure 3A)
+C6,Q67H+N74D interaction residual,residual=0.15865; expected FC=104.10; observed FC=150,results/revision_v2/epistasis_matrix.csv,row combination=Q67H+N74D,MULTI_SOURCE,UNMAPPED,Results Epistatic Interactions
+C7,Structure-phenotype correlation,r=0.886; p=0.003,results/revision_v2/structure_phenotype_correlation.csv,row correlation_type=ddg_binding_vs_log10_fc,PMC9600929,Bester2022,Results Structure-informed Mechanism (Figure 4F)
+C8,Fitness panel sample size,n=6 observations,results/phase2/fitness_resistance_data.csv + results/validation/biological_annotations.csv,Figure5 script aggregation output,MULTI_SOURCE,UNMAPPED,Results Evolutionary and Fitness Context (Figure 5C)

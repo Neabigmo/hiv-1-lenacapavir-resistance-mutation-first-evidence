@@ -19,10 +19,17 @@ This repository contains code, processed data, and source records used for the L
 - `data/manifests/EXTRACTED_DATA_INVENTORY.md`
 - `data/manifests/download_registry.csv`
 
-## Reproducibility Entry Points
-- Analysis scripts: `scripts/revision_v2/` and `scripts/phase2/`
-- Source modules: `src/`
-- Submission-ready package: `submission_antiviral_research_single_folder/`
+## Public Reproducibility Entry Point
+- Public minimal release: `public_release_core/`
+- Rewritten core scripts: `public_release_core/code/`
+- Minimal processed dataset: `public_release_core/data/processed/revision_v2/`
+- Key raw-source subset (11 source records + controls): `public_release_core/data/raw_key/`
+- Audit mapping: `public_release_core/metadata/source_id_to_bibkey.csv` and `public_release_core/metadata/source_to_claim_mapping.csv`
+
+## Full Internal Workspace (Not Required For Public Reproduction)
+- Historical analysis scripts: `scripts/revision_v2/`, `scripts/phase2/`, `scripts/revision/`
+- Internal source modules: `src/`
+- Submission packaging workspace: `submission_antiviral_research_single_folder/`
 
 ## Notes
 - All data in this repository are from public sources and compiled for secondary analysis.

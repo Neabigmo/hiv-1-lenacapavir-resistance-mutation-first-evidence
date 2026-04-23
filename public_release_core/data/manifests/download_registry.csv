@@ -1,0 +1,9 @@
+Source,Dataset,URL,Status,Notes
+HIVDB,Genotype-Rx Datasets,https://hivdb.stanford.edu/download/GenoRxDatasets/,pending,Main download directory
+HIVDB,Reference file,https://hivdb.stanford.edu/download/GenoRxDatasets/Ref.txt,pending,Reference documentation
+HIVDB,POC SecondLine,https://hivdb.stanford.edu/download/POC/SecondLine.txt,pending,Point-of-care data
+Key Papers,mBio 2022 LEN resistance,https://pmc.ncbi.nlm.nih.gov/articles/PMC9600929/,pending,Structural/mechanistic bases
+Key Papers,Nature Comms 2026 LEN evolution,https://www.nature.com/articles/s41467-026-70119-6,pending,In vitro selection pathways
+Key Papers,2026 LEN fitness cost,https://pubmed.ncbi.nlm.nih.gov/41499523/,pending,Treatment-emergent + replication defects
+Key Papers,2026 Capsid polymorphism,https://pmc.ncbi.nlm.nih.gov/articles/PMC12077089/,pending,Infectivity + susceptibility
+LANL,HIV Sequence Database,https://www.hiv.lanl.gov/,pending,LEN-naïve global sequences

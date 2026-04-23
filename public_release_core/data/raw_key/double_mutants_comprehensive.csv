@@ -1,0 +1,13 @@
+Mutation,FC_numeric,Context,Source_PMID,Subtype,Quality,Notes,Data_Type
+Q67H+N74D,150.0,In_vitro,PMC9600929,Subtype_B,5,Binding affinity reduction (Kd fold-change),SPR
+Q67H+K70R,0.59,In_vitro,PMC9600929,Subtype_B,5,Improved potency with KFA-012 analog,In_vitro
+Q67H+K70R,46.3,Clinical,JID2025,Clinical_isolate,5,CAPELLA Participant 5,Clinical_isolate
+Q67H+K70R,17.5,In_vitro,JAC2025,Subtype_B,5,Uganda study double mutant,In_vitro
+M66I+A105T,111.0,Clinical,JID2025,Clinical_isolate,5,CAPELLA Participant 7,Clinical_isolate
+M66I+T107A,234.0,Clinical,JID2025,Clinical_isolate,5,CAPELLA Participant 9,Clinical_isolate
+Q67K+K70H,167.0,Clinical,JID2025,Clinical_isolate,5,CAPELLA Participant 8,Clinical_isolate
+K70N+N74K,289.0,Clinical,JID2025,Clinical_isolate,5,CAPELLA Participant 11,Clinical_isolate
+Q67H+T107N,>6,In_vitro,NATAP2022,Subtype_B,4,Combination variant,In_vitro
+Q67H+N74S,>6,In_vitro,NATAP2022,Subtype_B,4,Combination variant,In_vitro
+K436E+I437T,1.6,In_vitro,AAC_2021,Subtype_B,4,C-terminal domain double mutation,In_vitro
+L56V+N57H,NA,In_vitro,PMC12077089,Primary_T_cells,5,Diminished replication: 2.5-fold vs 3-log for WT over 14d,Replication_capacity

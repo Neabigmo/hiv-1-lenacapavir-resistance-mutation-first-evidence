@@ -1,0 +1,18 @@
+artifact_type,relative_path,purpose
+script,code/01_build_harmonized_dataset.py,Rebuild complete-case dataset and core count metrics
+script,code/02_model_comparison.py,Recompute model ranking summary from model_comparison table
+script,code/03_epistasis_and_context.py,Recompute Q67H+K70R range and Q67H+N74D interaction summary
+script,code/04_generate_main_figures.py,Generate compact public summary figure panel
+data_processed,data/processed/revision_v2/harmonized_phenotype_data.csv,Primary harmonized phenotype matrix
+data_processed,data/processed/revision_v2/model_comparison.csv,Model comparison outputs for M0-M3
+data_processed,data/processed/revision_v2/epistasis_matrix.csv,Epistasis residual calculations
+data_processed,data/processed/revision_v2/fitness_resistance_data.csv,Fitness panel source (n=6 aggregated)
+data_raw_key,data/raw_key/double_mutants_comprehensive.csv,Key raw extraction for combination observations
+data_raw_key,data/raw_key/supplementary_mutations_2026.csv,Key raw extraction for subtype/context records
+data_raw_key,data/raw_key/clinical_trials_2025_extracted.csv,Clinical trial derived source table
+data_raw_key,data/raw_key/natap2022_extracted_quantitative.csv,In vitro source table
+data_raw_key,data/raw_key/pmc_extracted_batch1.csv,Batch extracted source table
+data_raw_key,data/raw_key/web_search_extracted_2026.csv,Source table containing PMC9600929 and PMID40231850 records
+data_raw_key,data/raw_key/structural_mechanism_2025.csv,Structural mechanism source table
+mapping,metadata/source_id_to_bibkey.csv,Source record to bibliography linkage table
+mapping,metadata/source_to_claim_mapping.csv,Claim-to-source audit mapping table

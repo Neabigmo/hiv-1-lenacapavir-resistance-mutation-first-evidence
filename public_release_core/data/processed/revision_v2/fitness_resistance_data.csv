@@ -1,0 +1,7 @@
+Mutation,FC,Fitness_pct,Type,log10_FC
+M66I,,1.5,Replication_capacity,
+L56V,,0.6,Infectivity,
+N57H,,12.0,Infectivity,
+M66I,3200.0,1.5,Replication_capacity,3.505149978319906
+N57H,4890.0,12.0,Infectivity,3.6893088591236203
+L56V,72.0,0.6,Infectivity,1.8573324964312685

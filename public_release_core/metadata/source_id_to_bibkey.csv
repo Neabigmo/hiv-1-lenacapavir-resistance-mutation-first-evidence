@@ -1,0 +1,12 @@
+source_id,study_source,context_tiers,subtypes,assay_types,extraction_files,n_observations,n_fc_numeric,n_log10fc,bib_key,reference_linkage_note
+AAC_2021,AAC,in_vitro,Subtype_B,unknown,double_mutants_comprehensive.csv,1,1,1,UNMAPPED,Tracked as source record only; no dedicated main-text bib key
+CAPELLA,CAPELLA,clinical,Mixed,PBMC,supplementary_mutations_2026.csv,1,1,1,Segal2022,Clinical trial context aligned with CAPELLA reporting
+EMJ2025,EMJ2025,clinical,Mixed,unknown,clinical_trials_2025_extracted.csv,1,1,1,UNMAPPED,Tracked as source record only; cite in supplement mapping
+JAC2025,JAC2025,in_vitro,B,unknown,double_mutants_comprehensive.csv,1,1,1,Hansen2025,Used as subtype/context variability source record
+JID2025,JID2025,clinical,Clinical_isolate,PBMC,double_mutants_comprehensive.csv,5,5,5,Margot2025,Clinical resistance analyses linkage
+NATAP2022,NATAP2022,in_vitro,B; Subtype_B,MT-4_cells,double_mutants_comprehensive.csv; natap2022_extracted_quantitative.csv,3,1,1,Bester2022,Mechanistic/phenotypic source linkage
+PMC12077089,PMC12077089,in_vitro,CRF02_AG; D; Mixed; Primary_T_cells,MT-2_cells,double_mutants_comprehensive.csv; pmc_extracted_batch1.csv; supplementary_mutations_2026.csv,5,4,4,Hansen2025,Polymorphism/subtype context linkage
+PMC8092519,PMC8092519,in_vitro,Mixed,unknown,pmc_extracted_batch1.csv,3,3,3,UNMAPPED,Tracked as source record only; no dedicated main-text bib key
+PMC9600929,PMC9600929,in_vitro,B,MT-4_cells,web_search_extracted_2026.csv,4,4,4,Bester2022,Primary structural-mechanistic source
+PMID40231850,PMID40231850,in_vitro,B,unknown,web_search_extracted_2026.csv,1,1,1,Hansen2025,Recent polymorphism/susceptibility context
+Structural_2025,Structural,in_vitro,B,unknown,structural_mechanism_2025.csv,1,1,1,Hansen2025,Structure-focused source linkage

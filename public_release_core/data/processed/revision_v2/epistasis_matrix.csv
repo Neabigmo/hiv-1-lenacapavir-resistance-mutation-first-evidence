@@ -1,0 +1,10 @@
+combination,mut1,mut2,observed_log10fc,observed_fc,mut1_log10fc,mut2_log10fc,expected_log10fc,expected_fc,interaction_residual,fold_amplification,interaction_type,note
+Q67H+N74D,Q67H,N74D,2.1760912590556813,150.0,0.7164063708851267,1.3010299956639813,2.017436366549108,104.09655726788407,0.1586548925065734,1.4409698450832253,additive,
+Q67H+K70R,Q67H,K70R,-0.2291479883578558,0.59,,,,,,,unknown_singles,Single mutants not measured
+M66I+A105T,M66I,A105T,2.0453229787866576,111.0,,,,,,,unknown_singles,Single mutants not measured
+M66I+T107A,M66I,T107A,2.369215857410143,234.0,,,,,,,unknown_singles,Single mutants not measured
+Q67K+K70H,Q67K,K70H,2.222716471147584,167.0,,,,,,,unknown_singles,Single mutants not measured
+K70N+N74K,K70N,N74K,2.460897842756548,289.0,,,,,,,unknown_singles,Single mutants not measured
+K436E+I437T,K436E,I437T,0.2041199826559248,1.6,,,,,,,unknown_singles,Single mutants not measured
+Q67H+K70R,Q67H,K70R,1.2430380486862518,17.5,,,,,,,unknown_singles,Single mutants not measured
+Q67H+K70R,Q67H,K70R,1.665580991017953,46.3,,,,,,,unknown_singles,Single mutants not measured

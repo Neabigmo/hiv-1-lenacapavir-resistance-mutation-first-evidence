@@ -14,3 +14,11 @@ Thumbs.db
 
 # Large raw sequence file (documented in data manifests; not pushed directly)
 data/raw/hiv-db.fasta
+
+# Historical manuscript artifacts and html render cache
+manuscript/archive_drafts/
+manuscript/drafts/
+manuscript/figures/revision_v2/html_renders/
+
+# Python runtime cache in public release
+public_release_core/results/

@@ -1,0 +1,5 @@
+model_name,aic,bic,log_likelihood,n_params,residual_std,r_squared,random_effect_var,converged,error
+M0_intercept_only,78.24632069478254,79.38181491071168,-38.12316034739127,1.0,1.2694581775050917,,,,
+M1_mutation_only,40.92060780736539,59.08851526223179,-4.460303903682696,16.0,0.29375409402255886,0.9464535034509136,,,
+M2_mutation_subtype,,,-7.65936109064228,18.0,0.5324745141276247,,2.504790391952959e-10,True,
+M3_mutation_study,,,,,,,,,Singular matrix

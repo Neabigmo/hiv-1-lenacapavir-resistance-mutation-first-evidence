@@ -31,7 +31,7 @@
 
 \begin{abstract}
 \textbf{Background}: Lenacapavir (LEN) resistance interpretation requires deciding whether phenotype is explained primarily by mutation identity or by subtype-level context. 
-\textbf{Methods}: Following PRISMA 2020, we screened 87 records and included 11 studies (26 quantitative observations, 16 mutations). We harmonized fold-change data on the log$_{10}$ scale and compared four model levels (M0--M3), with bootstrap ranking stability (n=1,000), leave-one-study-out validation, and supportive epistasis, structural, and conservation analyses.
+\textbf{Methods}: Following PRISMA 2020, we screened 87 records and included 11 source records (26 quantitative observations, 16 mutations; 23 complete-case observations for model fitting). We harmonized fold-change data on the log$_{10}$ scale and compared four model levels (M0--M3), with bootstrap ranking stability (n=1,000), leave-one-source-record-out validation, and supportive epistasis, structural, and conservation analyses.
 \textbf{Results}: M1 (mutation-only) was the best-supported model (AIC=40.9, R$^{2}$=0.946). Adding subtype (M2) provided little additional explanatory value at current data depth ($\sigma^2=0.000000$ boundary convergence). Top mutation rankings were stable (N57H rank 1.0 $\pm$ 0.0; M66I rank 1.9 $\pm$ 0.4). N57H (4,890-fold) and M66I (3,200-fold) showed the highest single-mutation resistance. Combination analysis showed Q67H+N74D positive synergy (150-fold observed vs 25-fold additive expectation), Q67H+K70R context-sensitive variability (76-fold range), and putative compensatory patterns for M66I+A105T (111-fold) and M66I+T107A (234-fold). Structural perturbation scores correlated with phenotype (r=0.886, $p$=0.003), and LEN-contact residues were highly conserved (median=0.97).
 \textbf{Conclusions}: Under current compiled phenotypic evidence, LEN resistance is driven primarily by mutation identity, while subtype contributes little additional explanatory value at the present data level. This supports mutation-first surveillance triage and prioritizes next-step subtype-stratified phenotyping.
 \end{abstract}
@@ -62,7 +62,7 @@ Here, we systematically synthesize published phenotypic evidence to determine wh
 
 \subsection{Evidence Synthesis (PRISMA 2020)}
 
-We followed PRISMA 2020 reporting guidelines \cite{Page2021} to make the evidence boundary auditable before downstream modeling. A systematic literature search was conducted in PubMed using terms: (lenacapavir OR GS-6207) AND (resistance OR capsid OR mutation OR fold-change). Identification: 82 PubMed records + 5 additional sources = 87 total. After deduplication ($n=78$), title/abstract screening excluded 56 records. Full-text review of 22 records excluded 11 (8 lacking quantitative data; 3 HIV-2 only). Eleven studies provided 26 quantitative fold-change observations meeting inclusion criteria (Figure~\ref{fig:evidence}).
+We followed PRISMA 2020 reporting guidelines \cite{Page2021} to make the evidence boundary auditable before downstream modeling. A systematic literature search was conducted in PubMed using terms: (lenacapavir OR GS-6207) AND (resistance OR capsid OR mutation OR fold-change). Identification: 82 PubMed records + 5 additional sources = 87 total. After deduplication ($n=78$), title/abstract screening excluded 56 records. Full-text review of 22 records excluded 11 (8 lacking quantitative data; 3 HIV-2 only). Eleven source records provided 26 quantitative fold-change observations meeting inclusion criteria (Figure~\ref{fig:evidence}).
 
 \textbf{Inclusion criteria}: (1) Quantitative phenotypic resistance measurement (fold-change vs wild-type); (2) HIV-1 only; (3) Peer-reviewed publication or clinical trial report; (4) Identified resistance mutation(s). \textbf{Exclusion}: HIV-2, qualitative only, review articles.
 
@@ -72,7 +72,7 @@ To avoid direct comparison of non-commensurate assay outputs, all fold-change (F
 \begin{equation}
 \text{log}_{10}\text{FC} = \log_{10}\left(\frac{\text{EC}_{50,\text{mutant}}}{\text{EC}_{50,\text{WT}}}\right)
 \end{equation}
-Each observation received: (1) \textit{context tier} (clinical $>$ in vitro $>$ natural polymorphism); (2) \textit{quality score} (1--3 based on experimental rigor); (3) \textit{unique observation ID} with full provenance. All data and code are available in the project repository.
+Each observation received: (1) \textit{context tier} (clinical $>$ in vitro $>$ natural polymorphism); (2) \textit{quality score} (1--3 based on experimental rigor); (3) \textit{unique observation ID} with full provenance. All data and code are available in the project repository with source-to-claim audit mapping.
 
 \subsection{Model Comparison Framework}
 
@@ -86,7 +86,7 @@ To compare explanatory levels rather than maximize prediction complexity, we fit
 &\quad v_s \sim N(0, \tau^2)
 \end{align}
 
-AIC and BIC were computed for model comparison. Leave-one-study-out (LOSO) cross-validation was performed ($n=11$ folds, RMSE and MAE reported) to test robustness against study-level removal rather than claim broad generalizability. Bootstrap ranking stability was assessed with 1,000 resamplings (with replacement); per-mutation rank mean and standard deviation were calculated.
+AIC and BIC were computed for model comparison. Leave-one-source-record-out (LOSO) cross-validation was performed ($n=11$ folds, RMSE and MAE reported) to test robustness against source-level removal rather than claim broad generalizability. Bootstrap ranking stability was assessed with 1,000 resamplings (with replacement); per-mutation rank mean and standard deviation were calculated.
 
 \subsection{Epistasis Analysis}
 
@@ -95,7 +95,7 @@ To interpret combinations without overstating sparse pairwise evidence, double m
 \log_{10}\text{FC}_{\text{expected}} = \log_{10}\text{FC}_{\text{mut1}} + \log_{10}\text{FC}_{\text{mut2}}
 \end{equation}
 
-Epistatic residual $= \log_{10}\text{FC}_{\text{observed}} - \log_{10}\text{FC}_{\text{expected}}$. Positive residuals indicate positive synergy (greater than additive); negative residuals indicate compensation (less than additive). Single mutant reference values were taken from the same study when available, otherwise from pooled means.
+Epistatic residual $= \log_{10}\text{FC}_{\text{observed}} - \log_{10}\text{FC}_{\text{expected}}$. Positive residuals indicate positive synergy (greater than additive); negative residuals indicate compensation (less than additive). Single mutant reference values were taken from the same source record when available, otherwise from pooled means.
 
 \subsection{Structural Perturbation Analysis}
 
@@ -110,7 +110,7 @@ Evolutionary analysis was used to contextualize mutation-level interpretation un
 Claim grading was predefined to constrain inference strength and prevent overextension from sparse evidence:
 \begin{itemize}
   \item \claimlabel{S} \textbf{Strong}: Supported by multiple independent observations ($n \geq 5$), stable across bootstrap resampling, consistent across context tiers.
-  \item \claimlabel{M} \textbf{Moderate}: Supported by $n=2$--4 observations or a single study with quantitative analysis; directionally consistent but not independently replicated.
+  \item \claimlabel{M} \textbf{Moderate}: Supported by $n=2$--4 observations or a single source record with quantitative analysis; directionally consistent but not independently replicated.
   \item \claimlabel{H} \textbf{Hypothesis-generating}: Based on $n \leq 2$ observations, indirect evidence, or mechanistic inference; requires targeted validation.
 \end{itemize}
 
@@ -124,14 +124,14 @@ Claim grading was predefined to constrain inference strength and prevent overext
 \centering
 \includegraphics[width=0.95\textwidth,keepaspectratio]{figure1_evidence_landscape.pdf}
 \caption{\textbf{Evidence landscape.}
-\textbf{(A)} PRISMA 2020 flow diagram showing systematic evidence synthesis from 87 identified records to 11 included studies.
+\textbf{(A)} PRISMA 2020 flow diagram showing systematic evidence synthesis from 87 identified records to 11 included source records.
 \textbf{(B)} Data availability matrix: number of quantitative observations per mutation by subtype and context tier.
-\textbf{(C)} Observation count per mutation, stratified by single vs combination mutants with number of contributing studies.
+\textbf{(C)} Observation count per mutation, stratified by single vs combination mutants with number of contributing source records.
 \textbf{(D)} Data harmonization pipeline from raw heterogeneous sources to standardized log$_{10}$FC observations.}
 \label{fig:evidence}
 \end{figure*}
 
-The systematic evidence synthesis identified 11 eligible studies contributing 26 quantitative observations covering 16 unique mutations (9 single, 7 combinations) across HIV-1 subtypes B ($n=18$), CRF02\_AG ($n=3$), D ($n=2$), and C/Mixed ($n=3$; Figure~\ref{fig:evidence}). Observation counts per mutation ranged from single-study evidence to repeated signals (for example, M66I and Q67H+K70R). Data heterogeneity was substantial across assay platform, experimental setting, and context tier.
+The systematic evidence synthesis identified 11 eligible source records contributing 26 quantitative observations covering 16 unique mutations (9 single, 7 combinations) across HIV-1 subtypes B ($n=18$), CRF02\_AG ($n=3$), D ($n=2$), and C/Mixed ($n=3$; Figure~\ref{fig:evidence}). Observation counts per mutation ranged from single-source evidence to repeated signals (for example, M66I and Q67H+K70R). Data heterogeneity was substantial across assay platform, experimental setting, and context tier.
 
 The availability matrix (Figure~\ref{fig:evidence}B) shows the key inferential boundary: subtype-stratified observations are available for only 4 of 16 mutations, and no mutation has $\geq 3$ independent subtype-stratified datapoints. Thus, current evidence is sufficient for ranking major mutation-level effects but underpowered for strong inference on subtype-specific modulation. \claimlabel{S}
 
@@ -150,7 +150,7 @@ The availability matrix (Figure~\ref{fig:evidence}B) shows the key inferential b
 
 Model comparison across M0--M3 identified M1 (mutation-only fixed effects) as the best-supported model within the current compiled dataset: AIC = 40.9, BIC = 58.7, R$^{2}$ = 0.946 (Figure~\ref{fig:coreevidence}C). M0 provided poor fit (AIC = 78.2), confirming substantial mutation-level structure in the data. M2 (mutation + subtype random effect) converged at subtype variance $\sigma^2 = 0.000000$, and M3 (mutation + study random effect) yielded a singular covariance matrix, together indicating limited support for higher-level random-effect expansion under current replication depth. \claimlabel{S}
 
-Bootstrap ranking stability (1,000 resamples) showed persistent top ordering: N57H (mean rank 1.0, SD 0.0), M66I (mean rank 1.9, SD 0.4), and K70N+N74K (mean rank 3.1, SD 0.8; Figure~\ref{fig:coreevidence}D). Leave-one-study-out cross-validation produced mean RMSE = 1.891 and MAE = 1.850 across 11 folds, supporting robustness of rank-level interpretation under study omission. \claimlabel{S}
+Bootstrap ranking stability (1,000 resamples) showed persistent top ordering: N57H (mean rank 1.0, SD 0.0), M66I (mean rank 1.9, SD 0.4), and K70N+N74K (mean rank 3.1, SD 0.8; Figure~\ref{fig:coreevidence}D). Leave-one-source-record-out cross-validation produced mean RMSE = 1.891 and MAE = 1.850 across 11 folds, supporting robustness of rank-level interpretation under source omission. \claimlabel{S}
 
 The highest-resistance single mutations were N57H ($\log_{10}$FC = 3.689; 4,890-fold), M66I ($\log_{10}$FC = 3.505; 3,200-fold), and L56V ($\log_{10}$FC = 1.857; 72-fold). Collectively, these findings indicate that mutation identity is the most stable explanatory signal under current evidence constraints. \claimlabel{S}
 
@@ -176,7 +176,7 @@ Among the 9 double-mutant combinations analyzed, three interaction patterns were
 
 \textbf{Positive synergy}: Q67H+N74D (observed 150-fold vs 25-fold additive expectation; residual $+$0.78 log-units) represents positive epistasis consistent with dual mechanism disruption: conformational switch (Q67H) combined with electrostatic repulsion (N74D). \claimlabel{M}
 
-\textbf{Context-dependent effects}: Q67H+K70R was observed in three independent studies with divergent results: 0.59-fold (in vitro, PMC9600929), 17.5-fold (Uganda A1/D subtype, JAC2025), and 46.3-fold (clinical isolate, JID2025), corresponding to a 76-fold range. This is the strongest context-sensitive signal in the current dataset, but the source of variation (subtype, host factors, assay conditions, or drug analogue differences) cannot be isolated from these observations alone. \claimlabel{H}
+\textbf{Context-dependent effects}: Q67H+K70R was observed in three independent source records with divergent results: 0.59-fold (in vitro, source record PMC9600929), 17.5-fold (Uganda A1/D context, source record JAC2025), and 46.3-fold (clinical isolate, source record JID2025), corresponding to a 76-fold range. This is the strongest context-sensitive signal in the current dataset, but the source of variation (subtype, host factors, assay conditions, or drug analogue differences) cannot be isolated from these observations alone. Full source-to-reference mapping is provided in Supplementary Tables S1--S2. \claimlabel{H}
 
 \textbf{Compensatory patterns}: M66I+A105T (111-fold) and M66I+T107A (234-fold) show substantially lower resistance than M66I alone (3,200-fold). This pattern is consistent with fitness-restoring secondary mutations that partially reduce resistance while enabling viral replication. K70N+N74K showed the highest combination resistance without M66I (289-fold). \claimlabel{H}
 
@@ -210,7 +210,7 @@ Subtype-stratified baseline frequencies at resistance positions remained below 1
 \caption{\textbf{Evolutionary and fitness context.}
 \textbf{(A)} Conservation scores at 13 LEN-contact residues; asterisks mark known resistance positions.
 \textbf{(B)} Subtype-specific baseline frequencies at resistance positions ($<$1\% across all subtypes).
-\textbf{(C)} Fitness cost vs resistance (3 published observations).
+\textbf{(C)} Fitness cost vs resistance (6 aggregated measurements).
 \textbf{(D)} Evidence-coded resistance pathway (solid = observed, dashed = inferred).
 \textbf{(E)} Surveillance priority ranking by mutation category and evidence strength.}
 \label{fig:evolution}
@@ -256,7 +256,7 @@ High conservation at LEN-contact residues across subtypes provides an evolutiona
 \label{fig:framework}
 \end{figure*}
 
-\textbf{Sample size}: $n=26$ observations from 11 studies is insufficient for reliable subtype random effect estimation. Power calculations suggest $n \geq 50$ observations with $\geq 5$ per subtype would be needed to detect a 0.3 log$_{10}$FC subtype effect.
+\textbf{Sample size}: $n=26$ observations from 11 source records (23 complete-case for model fitting) is insufficient for reliable subtype random effect estimation. Power calculations suggest $n \geq 50$ observations with $\geq 5$ per subtype would be needed to detect a 0.3 log$_{10}$FC subtype effect.
 
 \textbf{Data heterogeneity}: Observations span different assay systems (cell-based, SPR, clinical) that were not fully modeled. Context tier adjustment is approximate.
 
@@ -264,7 +264,7 @@ High conservation at LEN-contact residues across subtypes provides an evolutiona
 
 \textbf{Structural limitations}: $\Delta\Delta G$ values are from published FoldX calculations that did not include lenacapavir as a parameterized ligand; exact values should be interpreted cautiously.
 
-\textbf{Fitness data}: Only 3 published fitness measurements are available, precluding a robust fitness-resistance correlation analysis.
+\textbf{Fitness data}: Six fitness-resistance measurements are available after cross-source aggregation, but this remains insufficient for robust correlation inference.
 
 %============================================================
 \section{Conclusion}
@@ -275,7 +275,7 @@ Under the current compiled phenotypic evidence, HIV-1 LEN resistance is driven p
 %============================================================
 \section*{Data Availability}
 %============================================================
-All data, analysis scripts, and figure generation code are available in the project repository. Processed datasets, analysis outputs, and figure files used in this manuscript are also included in the submission package.
+All data, analysis scripts, and figure generation code are available at \href{https://github.com/Neabigmo/hiv-1-lenacapavir-resistance-mutation-first-evidence}{https://github.com/Neabigmo/hiv-1-lenacapavir-resistance-mutation-first-evidence}. The public reproducibility entry point is \texttt{public\_release\_core/}, which contains the rewritten core workflow scripts, minimal processed datasets, key raw-source subset, and source-to-claim mapping files. Submission-package figure files are included separately for journal upload.
 
 %============================================================
 \section*{Acknowledgments}
@@ -335,9 +335,9 @@ Generative AI tools were used to polish language, grammar, and expression during
 %============================================================
 
 \textbf{Figure 1. Evidence landscape.}
-\textbf{(A)} PRISMA 2020 flow diagram showing systematic evidence synthesis from 87 identified records to 11 included studies.\\
+\textbf{(A)} PRISMA 2020 flow diagram showing systematic evidence synthesis from 87 identified records to 11 included source records.\\
 \textbf{(B)} Data availability matrix: number of quantitative observations per mutation by subtype and context tier. Gray indicates no available data; color intensity indicates observation count.\\
-\textbf{(C)} Observation count per mutation, stratified by single (blue) vs combination (purple) mutants, with number of contributing studies.\\
+\textbf{(C)} Observation count per mutation, stratified by single (blue) vs combination (purple) mutants, with number of contributing source records.\\
 \textbf{(D)} Data harmonization pipeline: raw heterogeneous sources converted to uniform log$_{10}$FC scale with provenance tracking.
 
 \textbf{Figure 2. Core phenotypic evidence and model comparison.}
@@ -347,7 +347,7 @@ Generative AI tools were used to polish language, grammar, and expression during
 \textbf{(D)} Bootstrap ranking stability heatmap: mean rank and standard deviation across 1,000 resamples; green indicates stable high-resistance ranking.
 
 \textbf{Figure 3. Epistatic interactions and context-dependent effects.}
-\textbf{(A)} Q67H+K70R observations across three independent studies; bars are colored by context to highlight a context-sensitive signal under sparse evidence.\\
+\textbf{(A)} Q67H+K70R observations across three independent source records; bars are colored by context to highlight a context-sensitive signal under sparse evidence.\\
 \textbf{(B)} M66I-centered combination network; node size proportional to resistance level; green nodes indicate putative compensatory mutations.\\
 \textbf{(C)} Mutation classification by evidence strength and category for boundary-aware interpretation.
 
@@ -359,7 +359,7 @@ Generative AI tools were used to polish language, grammar, and expression during
 \textbf{Figure 5. Evolutionary and fitness context.}
 \textbf{(A)} Sequence conservation scores at 13 LEN-contact residues from published population surveys; asterisks indicate known resistance positions; threshold lines at 0.80 and 0.95.\\
 \textbf{(B)} Subtype-specific baseline frequencies for resistance mutations; all $<$1\% in treatment-naive populations.\\
-\textbf{(C)} Fitness cost vs resistance level (3 published observations); data remain insufficient for robust correlation.\\
+\textbf{(C)} Fitness cost vs resistance level (6 aggregated measurements); data remain insufficient for robust correlation.\\
 \textbf{(D)} Evidence-coded resistance pathway: solid arrows indicate observed transitions; dashed indicate inferred.\\
 \textbf{(E)} Surveillance priority ranking by mutation category and evidence strength.
 
