@@ -1,0 +1,17 @@
+Mutation,FC_numeric,Subtype,Context,Source_PMID,Fitness_WT_pct,Notes,Quality_score
+M66I,,Subtype_B,In_vitro,NATAP2022,1.5%,Severe replication defect,4
+L56V,72.0,CRF02_AG,In_vitro,PMC12077089,0.06%-7.8%,Steric clash,5
+I37Y,,Mixed,In_vitro,PMC12077089,0.006%,Severely impaired,5
+Q50P,,Mixed,In_vitro,PMC12077089,0.03%,Severely impaired,5
+N53K,,Mixed,In_vitro,PMC12077089,0.02%,Severely impaired,5
+T54Y,,Mixed,In_vitro,PMC12077089,0.01%,Severely impaired,5
+I73F,,Mixed,In_vitro,PMC12077089,0.01%,Severely impaired,5
+R173K,,Mixed,In_vitro,PMC12077089,0.03%,Severely impaired,5
+L56F,,Mixed,In_vitro,PMC12077089,0.02%,Severely impaired,5
+I135H,,Mixed,In_vitro,PMC12077089,0.60%,Severely impaired,5
+Q179_variants,,Mixed,In_vitro,PMC12077089,93%-106%,Well-tolerated mean,5
+L56V,72.0,CRF02_AG,In_vitro,PMC12077089,2.8%,Steric clash,5
+L56_variants,,Mixed,In_vitro,PMC12077089,2.8%,Mean infectivity,5
+T54_variants,,Mixed,In_vitro,PMC12077089,37%,Mean infectivity,5
+S41_variants,,Mixed,In_vitro,PMC12077089,42%,Mean infectivity,5
+N183_variants,,Mixed,In_vitro,PMC12077089,94%,Mean infectivity,5

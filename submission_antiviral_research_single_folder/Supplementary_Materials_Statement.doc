@@ -1,0 +1,21 @@
+Supplementary Materials Statement
+
+The following supplementary data files are included:
+
+1) Supplementary_Data_01_harmonized_phenotype_data.csv
+   Harmonized observation-level phenotype dataset used for all main analyses.
+
+2) Supplementary_Data_02_study_metadata.csv
+   Study-level metadata and source annotations.
+
+3) Supplementary_Data_03_observation_summary.csv
+   Mutation-level summary statistics from the harmonized dataset.
+
+4) Supplementary_Data_04_model_comparison.csv
+   Model comparison metrics (M0--M3) used in Figure 2 and Results.
+
+5) Supplementary_Data_05_epistasis_matrix.csv
+   Observed, expected, and residual epistasis values used in Figure 3 analyses.
+
+6) Supplementary_Data_06_mutation_classifications.csv
+   Evidence-tier mutation classifications used for framework and prioritization panels.

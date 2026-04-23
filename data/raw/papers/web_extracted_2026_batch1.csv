@@ -1,0 +1,8 @@
+Source,Mutation,FC,EC50,Context,Subtype,Quality,Notes,Reference
+PMC9600929,Q67H,5.0,,In_vitro,B,3,~5-fold reduction in binding affinity,https://pmc.ncbi.nlm.nih.gov/articles/PMC9600929/
+PMC9600929,N74D,20.0,,In_vitro,B,3,~20-fold decrease in binding affinity,https://pmc.ncbi.nlm.nih.gov/articles/PMC9600929/
+PMC9600929,Q67H+N74D,150.0,,In_vitro,B,3,~150-fold reduced binding vs WT,https://pmc.ncbi.nlm.nih.gov/articles/PMC9600929/
+PMC9600929,Q67H+K70R,0.59,,In_vitro,B,3,KFA-012 EC50 883pM vs LEN 1498pM,https://pmc.ncbi.nlm.nih.gov/articles/PMC9600929/
+PMC12077089,L56V,72.0,,In_vitro,CRF02_AG,3,72-fold resistance; 0.30% prevalence,https://pmc.ncbi.nlm.nih.gov/articles/PMC12077089/
+PMC12077089,N57H,4890.0,,In_vitro,D,3,4890-fold resistance; 0.47% prevalence,https://pmc.ncbi.nlm.nih.gov/articles/PMC12077089/
+PMC12077089,Other_variants,0.6-2.6,,In_vitro,Mixed,3,46/48 variants minimal change (<3-fold),https://pmc.ncbi.nlm.nih.gov/articles/PMC12077089/

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200, height=1400">
+    <title>PRISMA Flow Diagram</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            background: white;
+            padding: 40px;
+        }
+
+        .container {
+            width: 1120px;
+            height: 1320px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .box {
+            position: absolute;
+            border: 2px solid #333;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            font-weight: 500;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .box-title {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .box-count {
+            font-weight: 700;
+            font-size: 16px;
+            color: #2c3e50;
+        }
+
+        /* Identification phase */
+        .identification {
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            border-color: #1976d2;
+        }
+
+        /* Screening phase */
+        .screening {
+            background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+            border-color: #f57c00;
+        }
+
+        /* Included phase */
+        .included {
+            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+            border-color: #388e3c;
+        }
+
+        /* Exclusion boxes */
+        .excluded {
+            background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
+            border: 2px dashed #d32f2f;
+            font-size: 12px;
+        }
+
+        /* Arrows */
+        .arrow {
+            position: absolute;
+            stroke: #333;
+            stroke-width: 2;
+            fill: none;
+            marker-end: url(#arrowhead);
+        }
+
+        .arrow-excluded {
+            stroke: #d32f2f;
+            stroke-dasharray: 5, 5;
+            marker-end: url(#arrowhead-red);
+        }
+
+        /* Phase labels */
+        .phase-label {
+            position: absolute;
+            left: 20px;
+            font-size: 18px;
+            font-weight: 700;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <svg width="1120" height="1320" style="position: absolute; top: 0; left: 0; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+                    <polygon points="0 0, 10 3, 0 6" fill="#333" />
+                </marker>
+                <marker id="arrowhead-red" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+                    <polygon points="0 0, 10 3, 0 6" fill="#d32f2f" />
+                </marker>
+            </defs>
+
+            <!-- Identification arrows -->
+            <path class="arrow" d="M 560 140 L 560 200" />
+
+            <!-- Main flow arrows -->
+            <path class="arrow" d="M 560 280 L 560 340" />
+            <path class="arrow" d="M 560 440 L 560 500" />
+            <path class="arrow" d="M 560 600 L 560 660" />
+            <path class="arrow" d="M 560 760 L 560 820" />
+            <path class="arrow" d="M 560 920 L 560 980" />
+
+            <!-- Exclusion arrows -->
+            <path class="arrow-excluded" d="M 700 380 L 820 380" />
+            <path class="arrow-excluded" d="M 700 540 L 820 540" />
+        </svg>
+
+        <!-- Phase Labels -->
+        <div class="phase-label" style="top: 60px;">Identification</div>
+        <div class="phase-label" style="top: 360px;">Screening</div>
+        <div class="phase-label" style="top: 680px;">Included</div>
+
+        <!-- Identification Phase -->
+        <div class="box identification" style="left: 140px; top: 60px; width: 340px; height: 80px;">
+            <div class="box-title">Records identified through<br>database searching</div>
+            <div class="box-count">(n = 82)</div>
+        </div>
+
+        <div class="box identification" style="left: 640px; top: 60px; width: 340px; height: 80px;">
+            <div class="box-title">Additional records identified<br>through other sources</div>
+            <div class="box-count">(n = 5)</div>
+        </div>
+
+        <!-- After deduplication -->
+        <div class="box identification" style="left: 290px; top: 200px; width: 540px; height: 80px;">
+            <div class="box-title">Records after duplicates removed</div>
+            <div class="box-count">(n = 78)</div>
+        </div>
+
+        <!-- Screening Phase -->
+        <div class="box screening" style="left: 290px; top: 340px; width: 540px; height: 100px;">
+            <div class="box-title">Records screened<br>(title and abstract)</div>
+            <div class="box-count">(n = 78)</div>
+        </div>
+
+        <div class="box excluded" style="left: 820px; top: 350px; width: 240px; height: 80px;">
+            <div class="box-title">Records excluded</div>
+            <div class="box-count">(n = 56)</div>
+            <div style="margin-top: 5px; font-size: 11px;">Not relevant</div>
+        </div>
+
+        <div class="box screening" style="left: 290px; top: 500px; width: 540px; height: 100px;">
+            <div class="box-title">Full-text articles assessed<br>for eligibility</div>
+            <div class="box-count">(n = 22)</div>
+        </div>
+
+        <div class="box excluded" style="left: 820px; top: 490px; width: 240px; height: 120px;">
+            <div class="box-title">Full-text articles excluded</div>
+            <div class="box-count">(n = 11)</div>
+            <div style="margin-top: 5px; font-size: 11px; line-height: 1.4;">
+                • No quantitative data (n=8)<br>
+                • HIV-2 only (n=3)
+            </div>
+        </div>
+
+        <!-- Included Phase -->
+        <div class="box included" style="left: 290px; top: 660px; width: 540px; height: 100px;">
+            <div class="box-title">Studies included in<br>qualitative synthesis</div>
+            <div class="box-count">(n = 11)</div>
+        </div>
+
+        <div class="box included" style="left: 290px; top: 820px; width: 540px; height: 100px;">
+            <div class="box-title">Studies included in<br>quantitative synthesis<br>(meta-analysis)</div>
+            <div class="box-count">(n = 11)</div>
+        </div>
+    </div>
+</body>
+</html>

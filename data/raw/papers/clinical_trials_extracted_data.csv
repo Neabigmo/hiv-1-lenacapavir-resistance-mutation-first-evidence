@@ -1,0 +1,8 @@
+Paper,Mutation,Measurement_Type,Value,Fold_Change,Clinical_Context,Notes,Source
+PMC11776782_CAPELLA_3yr,M66I+Q67H/K/N+K70H/N/R/S+N74D/H/K,Emergence_rate,19%,NA,Treatment-experienced,14/72 patients,3-year data
+PMC11776782_CAPELLA_3yr,Multiple_RAMs,Selection_context,Functional_monotherapy,NA,Treatment-experienced,Consequence of suboptimal regimen,Main text
+PMID39873394_2yr,M66I+Q67H/K/N+K70H/N/R/S+N74D/H/K,Clinical_emergence,Identified,NA,Treatment-experienced,19% emergence rate,Abstract
+PMID40231850_M66I,M66I,Structural_mechanism,Steric_hindrance,NA,In_vitro,β-branched Ile66 blocks LEN R3/R4 rings,Structural
+PMID40231850_M66I,M66I,Binding_affinity,Markedly_reduced_KD,NA,SPR_data,Selective LEN blockade,Binding assay
+PMID40231850_M66I,M66I,Cofactor_binding,Preserved,NA,In_vitro,CPSF6/NUP153/SEC24C unaffected,Functional
+PMID40231850_M66I,M66I,Nuclear_import,Severely_impaired,NA,Microscopy,Cores stall at nuclear envelope,Replication

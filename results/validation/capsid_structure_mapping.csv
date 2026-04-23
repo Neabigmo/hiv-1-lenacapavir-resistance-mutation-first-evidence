@@ -1,0 +1,5 @@
+Region,Residues,Lenacapavir_Contact,Structural_Role
+NTD-CTD interface,"N57, Q67, N74",Direct,Inter-domain hinge
+Hydrophobic pocket,M66,Direct,Drug binding pocket
+NTD helix,K70,Indirect,Helix stability
+CTD,A105,Indirect,Hexamer interface

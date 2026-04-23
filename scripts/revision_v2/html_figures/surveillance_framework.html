@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, height=1400">
+    <title>Mutation-First Surveillance Framework</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            background: white;
+            padding: 40px;
+        }
+
+        .container {
+            width: 900px;
+            height: 1300px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .layer {
+            position: absolute;
+            left: 50px;
+            right: 50px;
+            border: 3px solid #333;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        .layer-title {
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 12px;
+            color: #2c3e50;
+        }
+
+        .layer-content {
+            font-size: 14px;
+            text-align: center;
+            color: #34495e;
+            line-height: 1.6;
+        }
+
+        .layer1 {
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            border-color: #1976d2;
+            top: 80px;
+            height: 100px;
+        }
+
+        .layer2 {
+            background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+            border-color: #f57c00;
+            top: 250px;
+            height: 200px;
+        }
+
+        .layer3 {
+            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+            border-color: #388e3c;
+            top: 520px;
+            height: 120px;
+        }
+
+        .layer4 {
+            background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
+            border-color: #d32f2f;
+            top: 710px;
+            height: 100px;
+        }
+
+        .priority-boxes {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 15px;
+        }
+
+        .priority-box {
+            flex: 1;
+            margin: 0 10px;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            border: 2px solid;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .priority-high {
+            background: linear-gradient(135deg, #ffcdd2 0%, #ef9a9a 100%);
+            border-color: #c62828;
+            color: #b71c1c;
+        }
+
+        .priority-medium {
+            background: linear-gradient(135deg, #ffe0b2 0%, #ffcc80 100%);
+            border-color: #ef6c00;
+            color: #e65100;
+        }
+
+        .priority-low {
+            background: linear-gradient(135deg, #bbdefb 0%, #90caf9 100%);
+            border-color: #1565c0;
+            color: #0d47a1;
+        }
+
+        .arrow {
+            position: absolute;
+            stroke: #333;
+            stroke-width: 3;
+            fill: none;
+            marker-end: url(#arrowhead);
+        }
+
+        .title {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 24px;
+            font-weight: 700;
+            color: #2c3e50;
+        }
+
+        .annotation {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%) rotate(-90deg);
+            font-size: 12px;
+            font-weight: 600;
+            color: #7b1fa2;
+            background: #f3e5f5;
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 2px solid #7b1fa2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <svg width="900" height="1300" style="position: absolute; top: 0; left: 0; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="10" refY="3" orient="auto">
+                    <polygon points="0 0, 12 3, 0 6" fill="#333" />
+                </marker>
+            </defs>
+
+            <!-- Flow arrows -->
+            <path class="arrow" d="M 450 180 L 450 250" />
+            <path class="arrow" d="M 450 450 L 450 520" />
+            <path class="arrow" d="M 450 640 L 450 710" />
+        </svg>
+
+        <div class="title">Mutation-First Surveillance Framework</div>
+
+        <!-- Layer 1: Data Collection -->
+        <div class="layer layer1">
+            <div class="layer-title">Layer 1: Clinical Sequence Surveillance</div>
+            <div class="layer-content">
+                Genotype all treatment failures → Flag CA mutations
+            </div>
+        </div>
+
+        <!-- Layer 2: Mutation-Level Triage -->
+        <div class="layer layer2">
+            <div class="layer-title">Layer 2: Mutation-Level Triage</div>
+            <div class="priority-boxes">
+                <div class="priority-box priority-high">
+                    <div style="font-size: 16px; margin-bottom: 5px;">HIGH</div>
+                    M66I, N57H<br>
+                    (&gt;1000×)
+                </div>
+                <div class="priority-box priority-medium">
+                    <div style="font-size: 16px; margin-bottom: 5px;">MEDIUM</div>
+                    Q67H, K70R<br>
+                    (100-1000×)
+                </div>
+                <div class="priority-box priority-low">
+                    <div style="font-size: 16px; margin-bottom: 5px;">LOW</div>
+                    Other<br>
+                    (&lt;100×)
+                </div>
+            </div>
+        </div>
+
+        <!-- Layer 3: Context Refinement -->
+        <div class="layer layer3">
+            <div class="layer-title">Layer 3: Context Refinement (Optional)</div>
+            <div class="layer-content">
+                Check subtype | combinations | compensatory<br>
+                <span style="font-size: 12px; color: #666; font-style: italic;">
+                    Note: Subtype has limited incremental value
+                </span>
+            </div>
+        </div>
+
+        <!-- Layer 4: Clinical Action -->
+        <div class="layer layer4">
+            <div class="layer-title">Layer 4: Clinical Action</div>
+            <div class="layer-content">
+                <strong>High:</strong> Regimen change |
+                <strong>Medium:</strong> Monitor closely |
+                <strong>Low:</strong> Follow-up
+            </div>
+        </div>
+
+        <!-- Side annotation -->
+        <div class="annotation">
+            Mutation signal stable across contexts
+        </div>
+    </div>
+</body>
+</html>

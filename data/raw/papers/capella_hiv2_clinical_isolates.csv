@@ -1,0 +1,18 @@
+Paper,Mutation,Type,Value,FC,Context,Notes,Source,Subtype
+CAPELLA_2yr_JID,Q67H,Resistance,4.5-fold,4.5,Clinical,Participant 1,JID2025,Clinical_isolate
+CAPELLA_2yr_JID,Q67Q/H,Resistance,5.9-fold,5.9,Clinical,Participant 2 mixed,JID2025,Clinical_isolate
+CAPELLA_2yr_JID,M66M/I+Q67+K70K/R+T107T/C,Resistance,12.2-fold,12.2,Clinical,Participant 3 complex,JID2025,Clinical_isolate
+CAPELLA_2yr_JID,N74D,Resistance,16-fold,16,Clinical,Participant 4,JID2025,Clinical_isolate
+CAPELLA_2yr_JID,Q67H+K70R,Resistance,46.3-fold,46.3,Clinical,Participant 5,JID2025,Clinical_isolate
+CAPELLA_2yr_JID,Q67H+K70R+A105A/T,Resistance,107-fold,107,Clinical,Participant 6,JID2025,Clinical_isolate
+CAPELLA_2yr_JID,M66I+A105T,Resistance,111-fold,111,Clinical,Participant 7,JID2025,Clinical_isolate
+CAPELLA_2yr_JID,Q67K+K70H,Resistance,167-fold,167,Clinical,Participant 8,JID2025,Clinical_isolate
+CAPELLA_2yr_JID,M66I+T107A,Resistance,234-fold,234,Clinical,Participant 9,JID2025,Clinical_isolate
+CAPELLA_2yr_JID,K70N+N74K,Resistance,289-fold,289,Clinical,Participant 11,JID2025,Clinical_isolate
+CAPELLA_2yr_JID,Q67H+K70R+T107T/N,Resistance,393-fold,393,Clinical,Participant 12,JID2025,Clinical_isolate
+CAPELLA_2yr_JID,M66I+N74D+A105T,Resistance,>869-fold,869,Clinical,Participant 13 triple,JID2025,Clinical_isolate
+CAPELLA_2yr_JID,M66I+Q67Q/H+N74D+A105T,Resistance,>869-fold,869,Clinical,Participant 14 quad,JID2025,Clinical_isolate
+HIV2_CID,N73D,Resistance,30-fold,30,Clinical,HIV-2 primary RAM,CID2024,HIV2
+HIV2_CID,N73D+A76V,Resistance,High,NA,Clinical,Double mutant 2 patients,CID2024,HIV2
+HIV2_CID,Q66H+R69K,Resistance,Emergent,NA,Clinical,Single patient,CID2024,HIV2
+HIV2_CID,Q66H,Resistance,Emergent,NA,Clinical,Single patient,CID2024,HIV2

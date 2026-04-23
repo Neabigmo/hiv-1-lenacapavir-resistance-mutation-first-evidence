@@ -1,0 +1,13 @@
+Paper,Combination,Model,Synergy_Score,P_value,Interaction_Type,Notes,Source
+PMC9229705,LEN+ISL,ZIP,4.02,0.141,Additive,Lenacapavir + Islatravir,PMC9229705
+PMC9229705,LEN+ISL,BLISS,2.96,0.281,Additive,Lenacapavir + Islatravir,PMC9229705
+PMC9229705,LEN+ISL,LOEWE,4.69,0.022,Synergistic,Lenacapavir + Islatravir,PMC9229705
+PMC9229705,LEN+ISL,HSA,10.3,0.0001,Synergistic,Lenacapavir + Islatravir,PMC9229705
+PMC9229705,LEN+RPV,ZIP,1.66,0.547,Additive,Lenacapavir + Rilpivirine,PMC9229705
+PMC9229705,LEN+RPV,LOEWE,0.18,0.91,Additive,Lenacapavir + Rilpivirine,PMC9229705
+PMC9229705,LEN+RPV,BLISS,1.36,0.626,Additive,Lenacapavir + Rilpivirine,PMC9229705
+PMC9229705,LEN+RPV,HSA,6.02,0.00239,Marginally_synergistic,Lenacapavir + Rilpivirine,PMC9229705
+PMC9229705,LEN+CAB,ZIP,0.63,0.542,Additive,Lenacapavir + Cabotegravir,PMC9229705
+PMC9229705,LEN+CAB,LOEWE,-1.36,0.112,Additive,Lenacapavir + Cabotegravir,PMC9229705
+PMC9229705,LEN+CAB,BLISS,0.2,0.876,Additive,Lenacapavir + Cabotegravir,PMC9229705
+PMC9229705,LEN+CAB,HSA,3.45,0.00042,Additive,Lenacapavir + Cabotegravir,PMC9229705

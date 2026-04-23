@@ -1,0 +1,12 @@
+Paper,Mutation,Type,Value,FC,Context,Notes,Source
+Nka2022,M66C,Polymorphism,4.18%,NA,Natural,2031 sequences,Drug-naive
+Nka2022,Q67K,Polymorphism,3.84%,NA,Natural,2031 sequences,Drug-naive
+Nka2022,T107L,Polymorphism,4.03%,NA,Natural,2031 sequences,Drug-naive
+Nka2022,M66I,DRM,0.05%,NA,Subtype_C,Low prevalence,Drug-naive
+Nka2022,Q67H,DRM,0.05%,NA,Subtype_C,Low prevalence,Drug-naive
+Nka2022,T107N,DRM,0.05%,NA,CRF01_AE,Low prevalence,Drug-naive
+GLASGOW,Q67H,In_vitro_selection,10_days,NA,Passage,2/29 participants 20-50mg,Phase1b
+GLASGOW,Q67N,Fitness,Least_impact,NA,In_vitro,Explains emergence,Selection
+CAPELLA_52wk,Capsid_RAMs,Emergence,13%,NA,Clinical,9/22 analyzed,Week 52
+CAPELLA_52wk,No_change,Sequence,18%,NA,Clinical,13/22 analyzed,Week 52
+CAPELLA_52wk,Suppression,VL<50,78%,NA,Clinical,Combined cohorts,Week 52

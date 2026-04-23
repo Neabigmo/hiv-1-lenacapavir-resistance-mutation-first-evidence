@@ -1,0 +1,3 @@
+Leave-one-study-out: RMSE=1.694, MAE=1.281
+Leave-one-backbone-out: RMSE=1.661, MAE=1.236
+Leave-one-mutation-combination-out: RMSE=1.994, MAE=1.717

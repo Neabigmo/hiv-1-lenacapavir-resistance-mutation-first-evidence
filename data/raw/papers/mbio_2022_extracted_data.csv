@@ -1,0 +1,12 @@
+Paper,Mutation,Measurement_Type,Value,Fold_Change,Notes,Source
+mBio_2022_PMC9600929,Q67H,Kd_fold_change,~5,5,Binding affinity reduction,Fig 1E
+mBio_2022_PMC9600929,Q67H,koff_fold_change,~5,5,Dissociation rate reduction,Fig 1E
+mBio_2022_PMC9600929,Q67H,EC50_fold_change,~7,7,vs WT HIV-1,Main text
+mBio_2022_PMC9600929,N74D,Kd_fold_change,~20,20,Binding affinity reduction,Fig 1E
+mBio_2022_PMC9600929,N74D,kon_fold_change,~2,2,Association rate reduction,Fig 1E
+mBio_2022_PMC9600929,N74D,koff_fold_change,~10,10,Dissociation rate reduction,Fig 1E
+mBio_2022_PMC9600929,N74D,EC50_fold_change,~10,10,vs WT HIV-1,Main text
+mBio_2022_PMC9600929,Q67H/N74D,Kd_fold_change,~150,150,Double mutant cumulative effect,Fig 1E
+mBio_2022_PMC9600929,Q67H/K70R,EC50_LEN,1498,NA,pM units,Fig 5C
+mBio_2022_PMC9600929,Q67H/K70R,EC50_KFA012,883,NA,pM units,Fig 5C
+mBio_2022_PMC9600929,M66I,Resistance,Complete,NA,Both LEN and KFA-012,Main text

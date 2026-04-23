@@ -1,0 +1,14 @@
+Paper,Mutation,Type,Value,FC,Context,Notes,Source
+PMC9600929,Q67H,Binding_affinity,5-fold,5,In_vitro,KD reduction vs WT,Link_2022
+PMC9600929,Q67H,Viral_susceptibility,7-fold,7,In_vitro,Reduced potency to LEN,Link_2022
+PMC9600929,Q67H,Fitness,WT-level,1,In_vitro,No detectable replication defect,Link_2022
+PMC9600929,N74D,Binding_affinity,20-fold,20,In_vitro,KD decrease vs WT,Link_2022
+PMC9600929,N74D,Viral_susceptibility,10-fold,10,In_vitro,Resistance to LEN,Link_2022
+PMC9600929,Q67H/N74D,Binding_affinity,150-fold,150,In_vitro,KD reduction vs WT,Link_2022
+PMC9600929,Q67H/N74D,Resistance,Cumulative,NA,In_vitro,Double mutation synergy,Link_2022
+PMC9600929,Q67H/K70R,EC50_KFA012,883pM,NA,In_vitro,KFA-012 analog,Link_2022
+PMC9600929,Q67H/K70R,EC50_LEN,1498pM,NA,In_vitro,1.7-fold more potent with KFA-012,Link_2022
+PMC9600929,M66I,Resistance,Complete,NA,In_vitro,Fully resistant to LEN and KFA-012,Link_2022
+PMC9600929,L56I,Fitness,Compromised,NA,In_vitro,Impaired replication,Link_2022
+PMC9600929,Q67H/N74S,Fitness,Compromised,NA,In_vitro,Impaired replication,Link_2022
+PMC9600929,Q67H/T107N,Fitness,Compromised,NA,In_vitro,Impaired replication,Link_2022

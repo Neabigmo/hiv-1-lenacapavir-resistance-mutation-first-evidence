@@ -1,0 +1,88 @@
+Mutation,FC_numeric,Subtype,Context,Source_PMID,Fitness_WT_pct,Notes,Quality_score
+Q67H,5,Subtype_B,In_vitro,mBio2022,,Binding affinity,3
+N74D,20,Subtype_B,In_vitro,mBio2022,,Binding affinity,3
+Q67H/N74D,150,Subtype_B,In_vitro,mBio2022,,Double mutant,3
+Q67H,7,Subtype_B,In_vitro,mBio2022,,Reduced potency to LEN,3
+N74D,10,Subtype_B,In_vitro,mBio2022,,Resistance to LEN,3
+L56V,72,CRF02_AG,In_vitro,PMC12077089,,Steric clash,3
+N57H,4890,Subtype_D,In_vitro,PMC12077089,,H-bond loss,3
+Q67H,4.5,Clinical_isolate,Clinical,JID2025,,Participant 1,5
+Q67Q/H,5.9,Clinical_isolate,Clinical,JID2025,,Participant 2 mixed,5
+M66M/I+Q67+K70K/R+T107T/C,12.2,Clinical_isolate,Clinical,JID2025,,Participant 3 complex,5
+N74D,16.0,Clinical_isolate,Clinical,JID2025,,Participant 4,5
+Q67H+K70R,46.3,Clinical_isolate,Clinical,JID2025,,Participant 5,5
+Q67H+K70R+A105A/T,107.0,Clinical_isolate,Clinical,JID2025,,Participant 6,5
+M66I+A105T,111.0,Clinical_isolate,Clinical,JID2025,,Participant 7,5
+Q67K+K70H,167.0,Clinical_isolate,Clinical,JID2025,,Participant 8,5
+M66I+T107A,234.0,Clinical_isolate,Clinical,JID2025,,Participant 9,5
+K70N+N74K,289.0,Clinical_isolate,Clinical,JID2025,,Participant 11,5
+Q67H+K70R+T107T/N,393.0,Clinical_isolate,Clinical,JID2025,,Participant 12,5
+M66I+N74D+A105T,869.0,Clinical_isolate,Clinical,JID2025,,Participant 13 triple,5
+M66I+Q67Q/H+N74D+A105T,869.0,Clinical_isolate,Clinical,JID2025,,Participant 14 quad,5
+N73D,30.0,HIV2,Clinical,CID2024,,HIV-2 primary RAM,5
+WT,1.0,,In_vitro,PMC10698746,,MT-4 cells baseline,3
+Q67H,6.0,Subtype_B,In_vitro,NATAP2022,,Single mutation,4
+L56I,6.0,,In_vitro,NATAP2022,,Reduced susceptibility,4
+M66I,3200.0,,In_vitro,NATAP2022,,Highest resistance,4
+K70N,6.0,,In_vitro,NATAP2022,,Reduced susceptibility,4
+Q67H,6.0,,In_vitro,NATAP2022,,Low-level resistance,4
+L56V,72.0,CRF02_AG,In_vitro,PMC12077089,0.06%-7.8%,Steric clash,5
+N57H,4890.0,Subtype_D,In_vitro,PMC12077089,,H-bond loss,5
+L56V,72.0,CRF02_AG,In_vitro,PMC12077089,2.8%,Steric clash,5
+N57H,4890.0,Subtype_D,In_vitro,PMC12077089,,H-bond loss,5
+Minimal_change_variants,1.6,Mixed,In_vitro,PMC12077089,,96% variants <3-fold,5
+Drug_resistant_isolates,0.65,Subtype_B,Clinical,PMC8092519,,Median FC (n=40),4
+GCSM_mutants,1.0,Subtype_B,In_vitro,PMC8092519,,Median FC (n=19),4
+Treatment_naive,0.8,Subtype_B,Clinical,PMC8092519,,Median FC (n=15),4
+Treatment_experienced,0.8,Subtype_B,Clinical,PMC8092519,,Median FC (n=36),4
+Q430R,1.9,,In_vitro,AAC_2021,,PI-associated GCSM,4
+A431V,1.9,,In_vitro,AAC_2021,,PI-associated GCSM prevalent,4
+K436E,1.9,,In_vitro,AAC_2021,,PI-associated GCSM,4
+K436S,1.9,,In_vitro,AAC_2021,,PI-associated GCSM,4
+I437T,1.9,,In_vitro,AAC_2021,,PI-associated GCSM,4
+I437V,1.9,,In_vitro,AAC_2021,,PI-associated GCSM,4
+L449H,1.9,,In_vitro,AAC_2021,,PI-associated GCSM,4
+L449V,1.9,,In_vitro,AAC_2021,,PI-associated GCSM,4
+L449F,1.9,,In_vitro,AAC_2021,,PI-associated GCSM,4
+P453L,1.9,,In_vitro,AAC_2021,,PI-associated GCSM prevalent,4
+L363F,1.9,,In_vitro,AAC_2021,,MI-associated CA/SP1,4
+L363M,1.9,,In_vitro,AAC_2021,,MI-associated CA/SP1,4
+A364V,1.9,,In_vitro,AAC_2021,,MI-associated CA/SP1,4
+K436E+I437T,1.6,,In_vitro,AAC_2021,,Double mutation highest FC,4
+TE_isolates,0.8,,Clinical,AAC_2021,,Median FC in treatment-experienced,4
+Multiclass_resistant,0.65,,Clinical,AAC_2021,,Average FC across 40 isolates,4
+Q67H,7.0,Subtype_B,In_vitro,PMC9600929,,Single mutation,5
+N74D,10.0,Subtype_B,In_vitro,PMC9600929,,Single mutation,5
+Q67H,5.0,Subtype_B,SPR,PMC9600929,,Binding affinity reduction,5
+N74D,20.0,Subtype_B,SPR,PMC9600929,,Binding affinity reduction,5
+Q67H+N74D,150.0,Subtype_B,SPR,PMC9600929,,Binding affinity reduction,5
+KFA-012_Q67H,1.8,Subtype_B,In_vitro,PMC9600929,,Modified analog vs LEN,5
+KFA-012_Q67H+N74D,2.6,Subtype_B,In_vitro,PMC9600929,,Modified analog vs LEN,5
+Q67H,5.0,,In_vitro,Link_2022,,KD reduction vs WT,5
+Q67H,7.0,,In_vitro,Link_2022,,Reduced potency to LEN,5
+Q67H,1.0,,In_vitro,Link_2022,,No detectable replication defect,5
+N74D,20.0,,In_vitro,Link_2022,,KD decrease vs WT,5
+N74D,10.0,,In_vitro,Link_2022,,Resistance to LEN,5
+Q67H/N74D,150.0,,In_vitro,Link_2022,,KD reduction vs WT,5
+L56I,6.0,Subtype_B,In_vitro,NATAP2022,,Reduced susceptibility,3
+M66I,3200.0,Subtype_B,In_vitro,NATAP2022,,Highest resistance,3
+K70N,6.0,Subtype_B,In_vitro,NATAP2022,,Reduced susceptibility,3
+Q67H,6.0,Subtype_B,In_vitro,NATAP2022,,Low-level resistance,3
+K436E+I437T,1.6,Subtype_B,In_vitro,AAC_2021,,Double mutation highest FC,3
+TE_isolates,0.8,Mixed_subtypes,Clinical,AAC_2021,,Median FC treatment-experienced,3
+Multiclass_resistant,0.65,Mixed_subtypes,Clinical,AAC_2021,,Average FC 40 isolates,3
+T107A,0.6,Subtype_A1,Natural,JAC2025,,5/546 participants,5
+T107A,0.6,Subtype_D,Natural,JAC2025,,5/546 participants,5
+T107S,1.3,Mixed,Natural,JAC2025,,10/546 participants,5
+K70R,1.2,Recombinant,Natural,JAC2025,,1/546 C/D recombinant,5
+T107C+Q67H+K70R,12.2,Subtype_B,In_vitro,JAC2025,,Triple mutant,5
+Q67H+K70R,17.5,Subtype_B,In_vitro,JAC2025,,Double mutant,5
+HIV2_WT,11.0,HIV2,In_vitro,JID2024,,Mean 12 isolates vs HIV-1,5
+HIV2_I54M+I84V+L90M,1.9,HIV2,In_vitro,JID2024,,PI-resistant mutant,5
+HIV2_K65R+Q151M+M184V,0.67,HIV2,In_vitro,JID2024,,RT-resistant mutant,5
+HIV2_G140S+Q148H,0.89,HIV2,In_vitro,JID2024,,INSTI-resistant mutant,5
+SIV_WT,4.0,SIV,In_vitro,JID2024,,Mean 4 isolates,5
+T107A,0.6,Mixed_A1_D,Natural,JAC2025,,5/546 participants,5
+T107A_SubtypeA1,0.6,Subtype_A1,Natural,JAC2025,,3/5 cases in A1,5
+T107A_SubtypeD,0.6,Subtype_D,Natural,JAC2025,,2/5 cases in D,5
+T107S,1.3,Mixed_A1_D,Natural,JAC2025,,10/546 participants,5

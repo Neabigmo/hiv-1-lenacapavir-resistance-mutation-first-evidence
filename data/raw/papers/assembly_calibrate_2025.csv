@@ -1,0 +1,7 @@
+Source,Mutation,FC,Concentration,Context,Subtype,Quality,Notes,Sample_Size
+IP6_assembly,IP6_immature,NA,3uM,Assembly,Mixed,3,Drives immature VLP assembly,NA
+IP6_assembly,IP6_mature,NA,200uM,Assembly,Mixed,3,100-fold higher for mature capsid assembly,NA
+IP6_assembly,IP6_stability,NA,NA,Mechanism,Mixed,3,Capsids stable for hours vs minutes without IP6,NA
+CALIBRATE_W28,Overall,NA,NA,Clinical,Mixed,3,High viral suppression rates achieved,182
+CALIBRATE_W28,Resistance,0.6%,NA,Clinical,Mixed,3,1/157 developed Q67H+K70R resistance,157
+CALIBRATE_W28,Baseline,NA,65%,Natural,Mixed,3,65% capsid residues <1% variation,182

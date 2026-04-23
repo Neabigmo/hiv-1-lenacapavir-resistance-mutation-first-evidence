@@ -1,0 +1,6 @@
+Source,Mutation,FC,EC50,Context,Subtype,Quality,Notes,Reference
+PMID35028668,Q67H,NA,,Clinical,Mixed,3,Emerged Day 10 in 2/29 participants,https://pubmed.ncbi.nlm.nih.gov/35028668/
+PMC8092519,WT,,0.095nM,In_vitro,Mixed,3,Wild-type baseline EC50,https://pmc.ncbi.nlm.nih.gov/articles/PMC8092519/
+PMC8092519,Treatment_naive,0.8,,In_vitro,Mixed,3,Median FC 0.6-1.6 range,https://pmc.ncbi.nlm.nih.gov/articles/PMC8092519/
+PMC8092519,Treatment_experienced,0.8,,In_vitro,Mixed,3,Median FC 0.4-1.8 range,https://pmc.ncbi.nlm.nih.gov/articles/PMC8092519/
+PMC8092519,Multiclass_resistant,0.65,,In_vitro,Mixed,3,40 isolates; FC 0.25-1.1 range,https://pmc.ncbi.nlm.nih.gov/articles/PMC8092519/

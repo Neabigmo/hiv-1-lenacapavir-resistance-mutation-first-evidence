@@ -1,0 +1,11 @@
+Source,Mutation,FC,Prevalence,Context,Subtype,Quality,Notes,Sample_Size
+PMC12343105,K65R,NA,0.7%,Natural,B,3,Declined from 1.5% (2018) to 0.7% (2024) RNA,NA
+PMC12343105,M184V,NA,8.6%,Natural,B,3,Decreased from 11.9% (2018) to 8.6% (2024) RNA,NA
+PMC12343105,T215F,NA,4.5%,Natural,B,3,Fell from 8.9% (2018) to 4.5% (2024) DNA,NA
+PMC12343105,Q148H,NA,1.2%,Natural,B,3,INSTI mutation declined to 1.2% RNA,NA
+PMC12343105,R263K,NA,1.5%,Natural,B,3,Increased from 0.5% to 1.5% (2024) RNA,NA
+Uganda_JAC2025,M66I,NA,0%,Natural,A1/D,3,No major RAMs detected,546
+Uganda_JAC2025,Q67H,NA,0%,Natural,A1/D,3,No major RAMs detected,546
+Uganda_JAC2025,T107A,NA,1.6%,Natural,A1/D,3,Most common minor mutation (9/546),546
+Uganda_JAC2025,L56M,NA,47.3%,Natural,A1,3,Common polymorphism in A1,546
+Uganda_JAC2025,T107S,NA,1.6%,Natural,A1/D,3,Minor polymorphism,546

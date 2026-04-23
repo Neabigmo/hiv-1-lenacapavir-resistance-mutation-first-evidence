@@ -1,0 +1,7 @@
+Paper,Mutation,Type,Value,FC,Context,Notes,Source
+NATAP_review,L56I,Resistance,6-fold,6,In_vitro,Reduced susceptibility,NATAP2022
+NATAP_review,M66I,Resistance,>3200-fold,3200,In_vitro,Highest resistance,NATAP2022
+NATAP_review,K70N,Resistance,6-fold,6,In_vitro,Reduced susceptibility,NATAP2022
+NATAP_review,Q67H,Resistance,6-fold,6,In_vitro,Low-level resistance,NATAP2022
+NATAP_review,Q67H/N74S,Resistance,Multiple,NA,In_vitro,Combination mutation,NATAP2022
+NATAP_review,Q67H/T107N,Resistance,Multiple,NA,In_vitro,Combination mutation,NATAP2022

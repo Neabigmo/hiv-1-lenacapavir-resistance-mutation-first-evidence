@@ -1,0 +1,13 @@
+Paper,Mutation,Type,Value,FC,Context,Notes,Source,Subtype
+NATAP_review,L56I,Resistance,6-fold,6,In_vitro,Reduced susceptibility,NATAP2022,Subtype_B
+NATAP_review,M66I,Resistance,>3200-fold,3200,In_vitro,Highest resistance,NATAP2022,Subtype_B
+NATAP_review,K70N,Resistance,6-fold,6,In_vitro,Reduced susceptibility,NATAP2022,Subtype_B
+NATAP_review,Q67H,Resistance,6-fold,6,In_vitro,Low-level resistance,NATAP2022,Subtype_B
+PMC8092519,K436E+I437T,Resistance,1.6-fold,1.6,In_vitro,Double mutation highest FC,AAC_2021,Subtype_B
+PMC8092519,TE_isolates,Resistance,0.8-fold,0.8,Clinical,Median FC treatment-experienced,AAC_2021,Mixed_subtypes
+PMC8092519,Multiclass_resistant,Resistance,0.65-fold,0.65,Clinical,Average FC 40 isolates,AAC_2021,Mixed_subtypes
+Clade_study,M66I,Prevalence,0.05%,NA,Natural,Subtype C prevalence,PMID36411257,Subtype_C
+Clade_study,Q67H,Prevalence,0.05%,NA,Natural,Subtype C prevalence,PMID36411257,Subtype_C
+Clade_study,T107N,Prevalence,0.05%,NA,Natural,CRF01_AE prevalence,PMID36411257,CRF01_AE
+Uganda_A1D,T107A,Prevalence,1.6%,NA,Natural,Minor mutation,PMID39881519,Subtype_A1
+Uganda_A1D,T107A,Prevalence,1.6%,NA,Natural,Minor mutation,PMID39881519,Subtype_D

@@ -1,0 +1,10 @@
+Paper,Mutation,Measurement_Type,Value,Fold_Change,Replication_Capacity,Notes,Source
+PMC11995365_2026,M66I,Resistance,Various_contexts,NA,Severely_impaired,Successfully phenotyped with RevLun assay,Main text
+PMC11995365_2026,Q67H/K/N,Resistance,Multiple,NA,Severely_impaired,Resistance-associated mutations,Main text
+PMC11995365_2026,K70H/N/R/S,Resistance,Multiple,NA,Severely_impaired,Resistance-associated mutations,Main text
+PMC11995365_2026,N74D/H/K,Resistance,Multiple,NA,Severely_impaired,Resistance-associated mutations,Main text
+PMC11995365_2026,A105S/T,Resistance,Multiple,NA,Severely_impaired,Resistance-associated mutations,Main text
+PMC11995365_2026,T107A/C/N/S,Resistance,Multiple,NA,Severely_impaired,Resistance-associated mutations,Main text
+PMC11995365_2026,CA_mutants,MT2_assay_signal,1,NA,NA,vs 4-7 for WT,Traditional assay fails
+PMC11995365_2026,CA_mutants,RevLun_assay_signal,50-120,NA,NA,Enables low-level detection,Novel assay succeeds
+PMC11995365_2026,LEN_RAMs,Cross_resistance,Sensitive,NA,NA,Remain sensitive to other drug classes,Main text

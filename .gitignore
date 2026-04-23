@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.spl
+
+# OS/editor
+.DS_Store
+Thumbs.db
+
+# Large raw sequence file (documented in data manifests; not pushed directly)
+data/raw/hiv-db.fasta

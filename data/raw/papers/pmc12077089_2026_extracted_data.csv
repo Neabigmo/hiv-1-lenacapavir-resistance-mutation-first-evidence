@@ -1,0 +1,9 @@
+Paper,Mutation,Measurement_Type,Value,Fold_Change,Infectivity_Percent_WT,Subtype_Prevalence,Notes,Source
+PMC12077089_2026,L56V,EC50_fold_change,72,72,0.6,0.30% (CRF02_AG),Steric clash with LEN di-fluoro-benzyl,Main text
+PMC12077089_2026,N57H,EC50_fold_change,4890,4890,12,0.47% (subtype D),Loss of H-bonds with LEN,Main text
+PMC12077089_2026,L56F,Infectivity,NA,NA,0.02-0.60,NA,Too impaired for phenotyping,Main text
+PMC12077089_2026,N57S,Resistance,Known,NA,NA,NA,Previously identified variant,Main text
+PMC12077089_2026,Q67H,Prevalence,0.12%,NA,NA,0.12%,Most common resistance mutation,Main text
+PMC12077089_2026,Polymorphic_variants,Susceptibility_minimal,46/48,<3,NA,NA,96% show <3-fold change,Main text
+PMC12077089_2026,Polymorphic_variants,Infectivity_impaired,40/54,NA,0.01-77,NA,74% impaired infectivity,Main text
+PMC12077089_2026,L56V+N57H,Replication_capacity,Diminished,NA,NA,NA,2.5-fold vs 3-log for WT over 14d,Primary T-cells

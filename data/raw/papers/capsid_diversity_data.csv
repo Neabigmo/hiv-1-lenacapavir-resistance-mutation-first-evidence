@@ -1,0 +1,18 @@
+Paper,Mutation,Type,Value,FC,Context,Notes,Source
+Diversity_study,M66I,Prevalence,<0.2%,NA,Subtype_B_C_A1_CRF07,Natural polymorphism,PMC9039614
+Diversity_study,Q67H,Prevalence,<0.5%,NA,All_variants,Natural polymorphism,PMC9039614
+Diversity_study,L56I,Prevalence,<0.5%,NA,All_variants,Natural polymorphism,PMC9039614
+Diversity_study,K70N,Prevalence,<0.5%,NA,All_variants,Natural polymorphism,PMC9039614
+Diversity_study,N74D,Prevalence,<0.5%,NA,All_variants,Natural polymorphism,PMC9039614
+Diversity_study,N74S,Prevalence,10%,NA,CRF45_cpx,Only 10 sequences available,PMC9039614
+Diversity_study,N57,Conservation,>99%,NA,All_groups,Key interaction site,PMC9039614
+Diversity_study,K70,Conservation,>99%,NA,All_groups,Key interaction site,PMC9039614
+Diversity_study,N74,Conservation,>99%,NA,All_groups,Key interaction site,PMC9039614
+Diversity_study,N183,Conservation,77%,NA,Group_M,Variable site,PMC9039614
+Diversity_study,N183,Conservation,90%,NA,Group_N,Variable site,PMC9039614
+Diversity_study,N183,Conservation,94%,NA,Group_O,Variable site,PMC9039614
+Diversity_study,N183,Conservation,0%,NA,Group_P,Serine substitution,PMC9039614
+Diversity_study,H87Q,Prevalence,High,NA,Group_M,All subtypes except J,PMC9039614
+Diversity_study,G116A,Prevalence,73%,NA,Group_N,Frequent polymorphism,PMC9039614
+Diversity_study,Conservation_overall,Conservation,89%,NA,HIV1_consensus,p24 amino acids,PMC9039614
+Diversity_study,Conservation_GroupM,Conservation,94%,NA,Group_M,Overall conservation,PMC9039614

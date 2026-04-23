@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1400, height=700">
+    <title>LEN-CA Structure and Mechanisms</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            background: white;
+            padding: 30px;
+        }
+
+        .container {
+            width: 1340px;
+            height: 640px;
+            margin: 0 auto;
+            position: relative;
+            display: flex;
+            gap: 20px;
+        }
+
+        .panel {
+            flex: 1;
+            position: relative;
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            background: #fafafa;
+        }
+
+        .panel-title {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        /* Panel A: Structure Overview */
+        .hexamer {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .hexamer-shape {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #e3f2fd 0%, #90caf9 100%);
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            border: 3px solid #1976d2;
+            position: relative;
+        }
+
+        .len-center {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #ef5350 0%, #c62828 100%);
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 14px;
+            border: 2px solid #b71c1c;
+        }
+
+        .residue {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+            font-weight: 700;
+            border: 2px solid;
+        }
+
+        .res-n57 { top: 20px; left: 50%; transform: translateX(-50%); background: #c8e6c9; border-color: #388e3c; color: #1b5e20; }
+        .res-m66 { top: 35%; right: 20px; background: #ffcdd2; border-color: #d32f2f; color: #b71c1c; }
+        .res-q67 { bottom: 35%; right: 20px; background: #ffe0b2; border-color: #f57c00; color: #e65100; }
+        .res-n74 { bottom: 20px; left: 50%; transform: translateX(-50%); background: #bbdefb; border-color: #1976d2; color: #0d47a1; }
+        .res-k70 { bottom: 35%; left: 20px; background: #e1bee7; border-color: #7b1fa2; color: #4a148c; }
+        .res-a105 { top: 35%; left: 20px; background: #e0e0e0; border-color: #616161; color: #212121; }
+
+        .annotation {
+            position: absolute;
+            font-size: 10px;
+            font-weight: 600;
+            padding: 4px 8px;
+            border-radius: 4px;
+            background: rgba(255,255,255,0.95);
+            border: 1px solid;
+        }
+
+        .ann-pocket { top: 180px; right: 30px; border-color: #d32f2f; color: #d32f2f; }
+        .ann-interface { bottom: 180px; right: 30px; border-color: #1976d2; color: #1976d2; }
+
+        /* Panel B: Mechanisms */
+        .mechanism-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 15px;
+            height: calc(100% - 40px);
+        }
+
+        .mech-box {
+            border: 2px solid;
+            border-radius: 8px;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .mech-title {
+            font-size: 13px;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+
+        .mech-subtitle {
+            font-size: 11px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .mech-detail {
+            font-size: 9px;
+            line-height: 1.3;
+            margin-top: 4px;
+        }
+
+        .mech-ddg {
+            font-size: 9px;
+            font-style: italic;
+            margin-top: 4px;
+            font-weight: 600;
+        }
+
+        .mech-n57h {
+            background: linear-gradient(135deg, #c8e6c9 0%, #a5d6a7 100%);
+            border-color: #388e3c;
+            color: #1b5e20;
+        }
+
+        .mech-m66i {
+            background: linear-gradient(135deg, #ffcdd2 0%, #ef9a9a 100%);
+            border-color: #d32f2f;
+            color: #b71c1c;
+        }
+
+        .mech-q67h {
+            background: linear-gradient(135deg, #ffe0b2 0%, #ffcc80 100%);
+            border-color: #f57c00;
+            color: #e65100;
+        }
+
+        .mech-comp {
+            background: linear-gradient(135deg, #c5e1a5 0%, #aed581 100%);
+            border-color: #689f38;
+            color: #33691e;
+        }
+
+        .central-label {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 11px;
+            font-weight: 700;
+            color: #1976d2;
+            background: white;
+            padding: 6px 12px;
+            border: 2px solid #1976d2;
+            border-radius: 20px;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Panel A: Structure Overview -->
+        <div class="panel">
+            <div class="panel-title">A. LEN-CA Hexamer Complex<br>(PDB: 6VKV)</div>
+
+            <div class="hexamer">
+                <div class="hexamer-shape">
+                    <div class="len-center">LEN</div>
+                </div>
+
+                <div class="residue res-n57">N57</div>
+                <div class="residue res-m66">M66</div>
+                <div class="residue res-q67">Q67</div>
+                <div class="residue res-n74">N74</div>
+                <div class="residue res-k70">K70</div>
+                <div class="residue res-a105">A105<br>T107</div>
+            </div>
+
+            <div class="annotation ann-pocket">Hydrophobic<br>Pocket</div>
+            <div class="annotation ann-interface">NTD-CTD<br>Interface</div>
+        </div>
+
+        <!-- Panel B: Resistance Mechanisms -->
+        <div class="panel">
+            <div class="panel-title">B. Resistance Mechanisms Overview</div>
+
+            <div class="mechanism-grid">
+                <div class="mech-box mech-n57h">
+                    <div class="mech-title">N57H</div>
+                    <div class="mech-subtitle">H-bond Loss</div>
+                    <div class="mech-detail">2 H-bonds lost</div>
+                    <div class="mech-ddg">ΔΔG: +4.5 kcal/mol</div>
+                </div>
+
+                <div class="mech-box mech-m66i">
+                    <div class="mech-title">M66I</div>
+                    <div class="mech-subtitle">Steric Clash</div>
+                    <div class="mech-detail">β-branch clash<br>2.6 Å displacement</div>
+                    <div class="mech-ddg">ΔΔG: +5.2 kcal/mol</div>
+                </div>
+
+                <div class="mech-box mech-q67h">
+                    <div class="mech-title">Q67H+N74D</div>
+                    <div class="mech-subtitle">Dual Effect</div>
+                    <div class="mech-detail">Conformational +<br>Electrostatic</div>
+                    <div class="mech-ddg">ΔΔG: +6.5 kcal/mol</div>
+                </div>
+
+                <div class="mech-box mech-comp">
+                    <div class="mech-title">A105T/T107A</div>
+                    <div class="mech-subtitle">Compensatory</div>
+                    <div class="mech-detail">Restores fitness<br>with M66I</div>
+                    <div class="mech-ddg">ΔΔG: +4.0 kcal/mol</div>
+                </div>
+            </div>
+
+            <div class="central-label">→ LEN Binding ←</div>
+        </div>
+    </div>
+</body>
+</html>

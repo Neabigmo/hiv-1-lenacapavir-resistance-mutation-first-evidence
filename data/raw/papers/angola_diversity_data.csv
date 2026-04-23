@@ -1,0 +1,8 @@
+Paper,Mutation,Type,Value,FC,Context,Notes,Source
+Angola_study,T107A,Prevalence,1.25%,NA,Angola_cohort,1/80 sequences,PMC12116093
+Angola_study,T107S,Prevalence,7.5%,NA,Angola_cohort,6/80 sequences,PMC12116093
+Angola_study,S41A,Prevalence,2.5%,NA,Angola_cohort,Reduced susceptibility reported,PMC12116093
+Angola_study,T200I,Prevalence,1.25%,NA,Angola_cohort,Reduced susceptibility reported,PMC12116093
+Angola_study,Official_RAMs,Prevalence,0%,NA,Angola_cohort,No M66I/Q67H/N74D found,PMC12116093
+Angola_study,Subtype_C,Prevalence,31.25%,NA,Angola,Most prevalent pure subtype,PMC12116093
+Angola_study,URFs,Prevalence,37.5%,NA,Angola,Unique recombinant forms,PMC12116093

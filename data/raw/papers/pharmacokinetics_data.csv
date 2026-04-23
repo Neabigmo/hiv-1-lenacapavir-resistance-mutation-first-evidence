@@ -1,0 +1,17 @@
+Paper,Parameter,Value,Unit,Context,Notes,Source
+PMC10698746,Viral_load_decay,2.3,log10_copies/mL,Monotherapy_10d,Single SC dose,PMC10698746
+PMC10698746,paEC95,4.0,nM,In_vitro,Protein-binding adjusted,PMC10698746
+PMC10698746,Target_concentration,6-fold_over_paEC95,NA,Clinical,Sustained 6+ months,PMC10698746
+PMC10698746,Clearance_IV,0.057,L/h/kg,Human_IV,Pharmacokinetics,PMC10698746
+PMC10698746,Vd_IV,23.0,L/kg,Human_IV,Volume of distribution,PMC10698746
+PMC10698746,Half_life_IV,270,hours,Human_IV,11.3 days,PMC10698746
+PMC10698746,Half_life_SC_aqueous,32-45,days,Human_SC,Median range,PMC10698746
+PMC10698746,Half_life_SC_PEG,65,days,Human_SC,927mg dose,PMC10698746
+PMC10698746,Tmax_SC_PEG,77-84,days,Human_SC,Time to peak,PMC10698746
+PMC10994821,Cmax_hepatic_impaired,61.1,ng/mL,Moderate_CPT_B,2.61-fold vs normal,PMC10994821
+PMC10994821,AUCinf_hepatic_impaired,12000,ng·h/mL,Moderate_CPT_B,1.47-fold vs normal,PMC10994821
+PMC10994821,Half_life_hepatic_impaired,12.6,days,Moderate_CPT_B,Median,PMC10994821
+PMC10994821,Cmax_renal_impaired,51.5,ng/mL,Severe_CLcr_15-29,2.62-fold vs normal,PMC10994821
+PMC10994821,AUCinf_renal_impaired,12100,ng·h/mL,Severe_CLcr_15-29,1.84-fold vs normal,PMC10994821
+PMC10994821,Half_life_renal_impaired,9.73,days,Severe_CLcr_15-29,Median,PMC10994821
+PMC10994821,Protein_binding,>99,%,All_groups,Plasma protein binding,PMC10994821

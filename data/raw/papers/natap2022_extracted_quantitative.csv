@@ -1,0 +1,12 @@
+Source,Mutation,FC,EC50,Context,Subtype,Quality,Notes
+NATAP2022,Q67H,6,NA,In_vitro,B,3,Low-level resistance
+NATAP2022,M66I,NA,NA,Fitness,B,3,1.5% replication capacity vs WT
+NATAP2022,WT,NA,105pmol/l,In_vitro,Mixed,3,MT-4 cells mean EC50
+NATAP2022,WT,NA,32pmol/l,In_vitro,Mixed,3,Primary CD4+ T cells
+NATAP2022,WT,NA,56pmol/l,In_vitro,Mixed,3,Macrophages
+NATAP2022,WT,NA,885pmol/l,In_vitro,HIV-2,3,HIV-2 isolates
+NATAP2022,Clinical_isolates,NA,0.24nmol/l,Clinical,A/B/C/D/G/H,3,Mean across subtypes
+NATAP2022,Clinical_isolates,NA,0.15-0.36nmol/l,Clinical,A/B/C/D/G/H,3,Range across subtypes
+CAPELLA_W26,Multiple,NA,NA,Clinical,Mixed,3,81% RNA <50 copies/ml (29/36)
+CALIBRATE_W28,Multiple,NA,NA,Clinical,Mixed,3,94% viral suppression (147/157)
+Screening_1500,None_detected,NA,NA,Natural,Mixed,3,No resistance in 1500 PWH baseline

@@ -1,0 +1,12 @@
+Paper,Mutation,Type,Value,FC,Context,Notes,Source,Subtype,Infectivity_WT
+PMC9600929,Q67H,EC50_FC,7,7,In_vitro,Single mutation,PMC9600929,Subtype_B,NA
+PMC9600929,N74D,EC50_FC,10,10,In_vitro,Single mutation,PMC9600929,Subtype_B,NA
+PMC9600929,Q67H+N74D,EC50_FC,>1000,>1000,In_vitro,Double mutant,PMC9600929,Subtype_B,NA
+PMC9600929,Q67H+K70R,EC50,1498,NA,In_vitro,EC50 in pM,PMC9600929,Subtype_B,NA
+PMC9600929,M66I,Resistance,Fully_resistant,NA,In_vitro,Resistant to LEN and KFA-012,PMC9600929,Subtype_B,NA
+PMC9600929,Q67H,KD_FC,5,5,SPR,Binding affinity reduction,PMC9600929,Subtype_B,NA
+PMC9600929,N74D,KD_FC,20,20,SPR,Binding affinity reduction,PMC9600929,Subtype_B,NA
+PMC9600929,Q67H+N74D,KD_FC,150,150,SPR,Binding affinity reduction,PMC9600929,Subtype_B,NA
+PMC9600929,KFA-012_Q67H,EC50_improvement,1.8,1.8,In_vitro,Modified analog vs LEN,PMC9600929,Subtype_B,NA
+PMC9600929,KFA-012_Q67H+N74D,EC50_improvement,2.6,2.6,In_vitro,Modified analog vs LEN,PMC9600929,Subtype_B,NA
+PMC9600929,KFA-012_Q67H+K70R,EC50,883,NA,In_vitro,EC50 in pM,PMC9600929,Subtype_B,NA

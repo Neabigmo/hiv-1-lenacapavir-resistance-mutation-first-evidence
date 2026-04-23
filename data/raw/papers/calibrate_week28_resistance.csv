@@ -1,0 +1,6 @@
+Paper,Mutation,Type,Value,FC,Context,Notes,Source,Subtype,Infectivity_WT
+CALIBRATE_W28,Q67H+K70R,EC50_FC,NA,NA,Clinical,Emergent resistance (1/157),CALIBRATE,Subtype_B,NA
+CALIBRATE_W28,Q67H+K70R+M184M/I,Resistance,Emergent,NA,Clinical,With emtricitabine resistance,CALIBRATE,Subtype_B,NA
+CALIBRATE_W28,Baseline_conservation,Conservation,65%,NA,Natural,CA residues <1% variation,CALIBRATE,Subtype_B,NA
+CALIBRATE_W28,Overall_resistance_rate,Prevalence,0.6%,NA,Clinical,1/157 treatment-naive,CALIBRATE,Subtype_B,NA
+CALIBRATE_W28,Subtype_B_prevalence,Prevalence,92.9%,NA,Clinical,Study population,CALIBRATE,Subtype_B,NA

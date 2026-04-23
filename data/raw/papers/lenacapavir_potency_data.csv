@@ -1,0 +1,3 @@
+Paper,Mutation,Type,Value,FC,Context,Notes,Source
+Lenacapavir_WT,WT,EC50,105pM,1,In_vitro,MT-4 cells baseline,PMC10698746
+Lenacapavir_WT,WT,Clinical_threshold,15.5ng/mL,NA,Clinical,IQ4 suppression threshold,PMC10698746

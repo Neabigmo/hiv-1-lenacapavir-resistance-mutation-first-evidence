@@ -1,0 +1,10 @@
+Paper,Mutation,Type,Value,FC,Context,Notes,Source,Subtype,Infectivity_WT
+NATAP2022,Q67H,EC50_FC,6,6,In_vitro,Single mutation,NATAP2022,Subtype_B,NA
+NATAP2022,M66I,Infectivity,1.5%,NA,In_vitro,Severe replication defect,NATAP2022,Subtype_B,1.5%
+NATAP2022,Q67H+T107N,EC50_FC,>6,>6,In_vitro,Combination variant,NATAP2022,Subtype_B,NA
+NATAP2022,Q67H+N74S,EC50_FC,>6,>6,In_vitro,Combination variant,NATAP2022,Subtype_B,NA
+NATAP2022,WT_MT4,EC50,105,NA,In_vitro,MT-4 cells (pmol/L),NATAP2022,Subtype_B,NA
+NATAP2022,WT_CD4,EC50,32,NA,In_vitro,Primary CD4+ T cells (pmol/L),NATAP2022,Subtype_B,NA
+NATAP2022,WT_Macrophages,EC50,56,NA,In_vitro,Macrophages (pmol/L),NATAP2022,Subtype_B,NA
+NATAP2022,HIV2_isolates,EC50,885,NA,In_vitro,HIV-2 (pmol/L),NATAP2022,HIV2,NA
+NATAP2022,Clinical_isolates_mean,EC50,0.24,NA,Clinical,Multiple subtypes (nmol/L),NATAP2022,Mixed,NA

@@ -1,0 +1,18 @@
+Paper,Mutation,Type,Value,FC,Context,Notes,Source,Subtype,Infectivity_WT
+PMC12077089_ext,L56V,EC50_FC,72,72,In_vitro,Steric clash,PMC12077089,CRF02_AG,0.06%-7.8%
+PMC12077089_ext,N57H,EC50_FC,4890,4890,In_vitro,H-bond loss,PMC12077089,Subtype_D,NA
+PMC12077089_ext,I37Y,Infectivity,0.006%,NA,In_vitro,Severely impaired,PMC12077089,Mixed,0.006%
+PMC12077089_ext,Q50P,Infectivity,0.03%,NA,In_vitro,Severely impaired,PMC12077089,Mixed,0.03%
+PMC12077089_ext,N53K,Infectivity,0.02%,NA,In_vitro,Severely impaired,PMC12077089,Mixed,0.02%
+PMC12077089_ext,T54Y,Infectivity,0.01%,NA,In_vitro,Severely impaired,PMC12077089,Mixed,0.01%
+PMC12077089_ext,I73F,Infectivity,0.01%,NA,In_vitro,Severely impaired,PMC12077089,Mixed,0.01%
+PMC12077089_ext,R173K,Infectivity,0.03%,NA,In_vitro,Severely impaired,PMC12077089,Mixed,0.03%
+PMC12077089_ext,L56F,Infectivity,0.02%,NA,In_vitro,Severely impaired,PMC12077089,Mixed,0.02%
+PMC12077089_ext,I135H,Infectivity,0.60%,NA,In_vitro,Severely impaired,PMC12077089,Mixed,0.60%
+PMC12077089_ext,Q179_variants,Infectivity,98%,NA,In_vitro,Well-tolerated mean,PMC12077089,Mixed,93%-106%
+PMC12077089_ext,SubtypeC_T54S,Prevalence,5.0%,NA,Natural,Subtype C polymorphism,PMC12077089,Subtype_C,NA
+PMC12077089_ext,SubtypeC_T54A,Prevalence,0.6%,NA,Natural,Subtype C polymorphism,PMC12077089,Subtype_C,NA
+PMC12077089_ext,SubtypeC_E180D,Prevalence,65%,NA,Natural,Subtype C polymorphism,PMC12077089,Subtype_C,NA
+PMC12077089_ext,SubtypeC_N183G,Prevalence,2.7%,NA,Natural,Subtype C polymorphism,PMC12077089,Subtype_C,NA
+PMC12077089_ext,SubtypeC_N183H,Prevalence,1.2%,NA,Natural,Subtype C polymorphism,PMC12077089,Subtype_C,NA
+PMC12077089_ext,SubtypeC_N183S,Prevalence,0.6%,NA,Natural,Subtype C polymorphism,PMC12077089,Subtype_C,NA

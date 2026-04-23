@@ -1,0 +1,15 @@
+Source,Mutation,Type,Value,FC,Context,Notes
+mBio2022,Q67H,Kd_FC,5,5,In_vitro,Binding affinity
+mBio2022,N74D,Kd_FC,20,20,In_vitro,Binding affinity
+mBio2022,Q67H/N74D,Kd_FC,150,150,In_vitro,Double mutant
+mBio2022,M66I,Resistance,Complete,NA,In_vitro,Both LEN+KFA-012
+PMC12077089,L56V,EC50_FC,72,72,In_vitro,Steric clash
+PMC12077089,N57H,EC50_FC,4890,4890,In_vitro,H-bond loss
+PMC12077089,Polymorphic,Infectivity_impaired,74%,NA,Natural,40/54 variants
+PMC12077089,Q67H,Prevalence,0.12%,NA,Natural,Most common RAM
+PMC11995365,M66I,Clinical,Various,NA,Clinical,RevLun assay
+PMC11995365,Multi_RAMs,Replication,Severely_impaired,NA,Clinical,MT-2 fails
+CAPELLA_3yr,Multi_RAMs,Emergence,19%,NA,Clinical,14/72 patients
+M66I_struct,M66I,Mechanism,Steric_hindrance,NA,Structural,Nuclear import blocked
+Uganda,T107A,Minor,1.6%,NA,Natural_A1D,546 participants
+Uganda,M66I+Q67H,Major,0%,NA,Natural_A1D,No detection

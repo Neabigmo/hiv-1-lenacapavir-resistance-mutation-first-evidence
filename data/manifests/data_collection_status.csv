@@ -1,0 +1,6 @@
+Source,Dataset,URL,Status,File_Count,Notes
+PDB,Capsid_structures,"7RAR,7RMM,7RHM,7RHN,7RJ4,7RJ2,7RMJ",complete,7,Downloaded to data/raw/pdb/
+Papers,Key_extractions,"mBio2022,PMC12077089,PMC11995365,CAPELLA,M66I_structural",complete,5,CSV files created
+LANL,HIV_sequences,https://www.hiv.lanl.gov/,pending,0,Need BLAST query for gag
+GenBank,Gag_sequences,NCBI_Entrez,pending,0,Pre-2022 LEN-naive
+PubMed,Literature_screening,82_papers,in_progress,8,8/82 screened

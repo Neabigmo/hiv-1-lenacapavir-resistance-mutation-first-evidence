@@ -1,0 +1,5 @@
+file_path,source,download_date,description,status
+data/raw/pubmed_82_papers.json,PubMed API,2026-04-21,Lenacapavir resistance literature search results,complete
+data/interim/evidence_atlas_v1_summary.md,Manual extraction,2026-04-21,Initial evidence from 3 key papers,complete
+data/interim/evidence_atlas_v3_summary.md,Manual extraction,2026-04-21,Extended evidence with 8 papers,complete
+data/external/pdb/*.pdb,RCSB PDB,2026-04-21,7 capsid structure files,path_issue

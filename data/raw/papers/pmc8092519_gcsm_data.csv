@@ -1,0 +1,17 @@
+Paper,Mutation,Type,Value,FC,Context,Notes,Source
+PMC8092519,Q430R,Resistance,1.9-fold,1.9,In_vitro,PI-associated GCSM,AAC_2021
+PMC8092519,A431V,Resistance,1.9-fold,1.9,In_vitro,PI-associated GCSM prevalent,AAC_2021
+PMC8092519,K436E,Resistance,1.9-fold,1.9,In_vitro,PI-associated GCSM,AAC_2021
+PMC8092519,K436S,Resistance,1.9-fold,1.9,In_vitro,PI-associated GCSM,AAC_2021
+PMC8092519,I437T,Resistance,1.9-fold,1.9,In_vitro,PI-associated GCSM,AAC_2021
+PMC8092519,I437V,Resistance,1.9-fold,1.9,In_vitro,PI-associated GCSM,AAC_2021
+PMC8092519,L449H,Resistance,1.9-fold,1.9,In_vitro,PI-associated GCSM,AAC_2021
+PMC8092519,L449V,Resistance,1.9-fold,1.9,In_vitro,PI-associated GCSM,AAC_2021
+PMC8092519,L449F,Resistance,1.9-fold,1.9,In_vitro,PI-associated GCSM,AAC_2021
+PMC8092519,P453L,Resistance,1.9-fold,1.9,In_vitro,PI-associated GCSM prevalent,AAC_2021
+PMC8092519,L363F,Resistance,1.9-fold,1.9,In_vitro,MI-associated CA/SP1,AAC_2021
+PMC8092519,L363M,Resistance,1.9-fold,1.9,In_vitro,MI-associated CA/SP1,AAC_2021
+PMC8092519,A364V,Resistance,1.9-fold,1.9,In_vitro,MI-associated CA/SP1,AAC_2021
+PMC8092519,K436E+I437T,Resistance,1.6-fold,1.6,In_vitro,Double mutation highest FC,AAC_2021
+PMC8092519,TE_isolates,Resistance,0.8-fold,0.8,Clinical,Median FC in treatment-experienced,AAC_2021
+PMC8092519,Multiclass_resistant,Resistance,0.65-fold,0.65,Clinical,Average FC across 40 isolates,AAC_2021

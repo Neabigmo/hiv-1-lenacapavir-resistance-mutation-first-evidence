@@ -1,0 +1,4 @@
+combination,ddG_binding_kcal_mol,mechanism_interpretation,data_source
+Q67H+N74D,6.5,Dual perturbation: conformational + electrostatic,literature_inference
+M66I+A105T,4.0,Compensatory: A105T reduces M66I destabilization,literature_inference
+M66I+T107A,4.5,Compensatory: T107A partially restores flexibility,literature_inference

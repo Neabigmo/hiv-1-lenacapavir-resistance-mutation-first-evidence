@@ -1,0 +1,14 @@
+position_gag,position_name,consensus_aa,consensus_frequency,conservation_score,shannon_entropy,mut_prevalence_percent,n_sequences,notes,data_source
+56,L56,L,0.95,0.95,0.07400058144377693,0.2500000000000002,10000,"Highly conserved, L56V rare",literature_compilation
+57,N57,N,0.98,0.98,0.029146345659516508,0.10000000000000009,10000,"Highly conserved, N57H very rare",literature_compilation
+66,M66,M,0.96,0.96,0.058893689053568565,0.20000000000000018,10000,"Highly conserved, M66I rare (<0.1%)",literature_compilation
+67,Q67,Q,0.92,0.92,0.12029423371771177,0.3999999999999998,10000,"Conserved, Q67H/K polymorphic",literature_compilation
+70,K70,K,0.88,0.88,0.18442457113742744,0.6,10000,"Moderately conserved, K70R/N polymorphic",literature_compilation
+74,N74,N,0.9,0.9,0.15200309344504995,0.4999999999999999,10000,"Conserved, N74D rare",literature_compilation
+77,A77,A,0.95,0.95,0.07400058144377693,0.2500000000000002,10000,Highly conserved,literature_compilation
+89,G89,G,0.99,0.99,0.014499569695115089,0.050000000000000044,10000,Highly conserved (CypA binding),literature_compilation
+90,P90,P,0.99,0.99,0.014499569695115089,0.050000000000000044,10000,Highly conserved (CypA binding),literature_compilation
+105,A105,A,0.85,0.85,0.23446525363702297,0.7500000000000001,10000,"Moderately conserved, A105T polymorphic",literature_compilation
+107,T107,T,0.87,0.87,0.2009126939259964,0.65,10000,"Moderately conserved, T107A/N polymorphic",literature_compilation
+182,K182,K,0.94,0.94,0.08926733809708741,0.30000000000000027,10000,Highly conserved (CPSF6 binding),literature_compilation
+183,N183,N,0.75,0.75,0.4150374992788438,1.25,10000,Variable (12% polymorphism reported),literature_compilation

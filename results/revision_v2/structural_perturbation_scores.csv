@@ -1,0 +1,9 @@
+mutation,binding_site,mechanism,h_bond_loss,steric_clash_score,ddG_binding_kcal_mol,contact_residue_change,perturbation_score,data_source
+N57H,hydrophobic_pocket,H-bond_loss,2,0,4.5,-3,5.85,literature_mBio2022
+M66I,hydrophobic_pocket,steric_hindrance,0,3,5.2,-4,9.56,literature_mBio2022
+Q67H,NTD-CTD_interface,conformational_switch,1,1,2.8,-2,5.34,literature_mBio2022
+N74D,NTD-CTD_interface,electrostatic_repulsion,1,0,2.1,-1,2.63,literature_mBio2022
+L56V,hydrophobic_pocket,steric_clash,0,2,3.8,-2,6.14,literature_mBio2022
+K70R,NTD-CTD_interface,charge_alteration,0,0,1.5,-1,0.95,literature_mBio2022
+A105T,CTD,compensatory_flexibility,0,0,-0.5,0,0.15,literature_mBio2022
+T107A,CTD,compensatory_flexibility,0,0,-0.3,0,0.09,literature_mBio2022

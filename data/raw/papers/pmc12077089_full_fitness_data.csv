@@ -1,0 +1,10 @@
+Paper,Mutation,Type,Value,FC,Context,Notes,Source,Subtype,Infectivity_WT
+PMC12077089_full,L56V,EC50_FC,72,72,In_vitro,Steric clash,PMC12077089,CRF02_AG,2.8%
+PMC12077089_full,N57H,EC50_FC,4890,4890,In_vitro,H-bond loss,PMC12077089,Subtype_D,NA
+PMC12077089_full,Q67H,Prevalence,0.12%,NA,Natural,Most common RAM,PMC12077089,All_subtypes,NA
+PMC12077089_full,L56_variants,Infectivity,2.8%,NA,In_vitro,Mean infectivity,PMC12077089,Mixed,2.8%
+PMC12077089_full,T54_variants,Infectivity,37%,NA,In_vitro,Mean infectivity,PMC12077089,Mixed,37%
+PMC12077089_full,S41_variants,Infectivity,42%,NA,In_vitro,Mean infectivity,PMC12077089,Mixed,42%
+PMC12077089_full,N183_variants,Infectivity,94%,NA,In_vitro,Mean infectivity,PMC12077089,Mixed,94%
+PMC12077089_full,Polymorphisms_overall,Infectivity,74%_impaired,NA,In_vitro,40/54 variants impaired,PMC12077089,Mixed,NA
+PMC12077089_full,Minimal_change_variants,Resistance,0.6-2.6,1.6,In_vitro,96% variants <3-fold,PMC12077089,Mixed,NA

@@ -1,0 +1,6 @@
+mechanism,count,mean,std
+H-bond_loss,2,3.689,0.0
+conformational_switch,3,0.716,0.055
+electrostatic_repulsion,1,1.301,
+steric_clash,2,1.857,0.0
+steric_hindrance,2,3.505,0.0

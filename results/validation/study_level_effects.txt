@@ -1,0 +1,6 @@
+Study_Variance: 0.0000
+Backbone_Variance: 0.0000
+Study_AIC: nan
+Backbone_AIC: nan
+Study_BIC: nan
+Backbone_BIC: nan

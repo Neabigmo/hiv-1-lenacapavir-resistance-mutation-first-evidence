@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, height=1200">
+    <title>Data Harmonization Pipeline</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            background: white;
+            padding: 40px;
+        }
+
+        .container {
+            width: 900px;
+            height: 1100px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .stage-box {
+            position: absolute;
+            border: 3px solid #333;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+            left: 50px;
+            width: 400px;
+        }
+
+        .stage-title {
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+
+        .stage-content {
+            font-size: 14px;
+            line-height: 1.8;
+            color: #34495e;
+        }
+
+        .stage-raw {
+            background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
+            border-color: #e53935;
+            top: 80px;
+        }
+
+        .stage-standardization {
+            background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+            border-color: #fb8c00;
+            top: 380px;
+        }
+
+        .stage-harmonized {
+            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+            border-color: #43a047;
+            top: 680px;
+        }
+
+        .metadata-box {
+            position: absolute;
+            right: 50px;
+            width: 350px;
+            border: 2px solid #607d8b;
+            border-radius: 8px;
+            padding: 20px;
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        }
+
+        .metadata-title {
+            font-size: 16px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 15px;
+            color: #1565c0;
+            border-bottom: 2px solid #1565c0;
+            padding-bottom: 8px;
+        }
+
+        .metadata-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .metadata-list li {
+            padding: 6px 0;
+            font-size: 13px;
+            color: #37474f;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .metadata-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #1976d2;
+            font-weight: bold;
+        }
+
+        .arrow {
+            position: absolute;
+            stroke: #333;
+            stroke-width: 3;
+            fill: none;
+            marker-end: url(#arrowhead);
+        }
+
+        .arrow-metadata {
+            stroke: #607d8b;
+            stroke-width: 2;
+            stroke-dasharray: 5, 5;
+            marker-end: url(#arrowhead-blue);
+        }
+
+        .title {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 24px;
+            font-weight: 700;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <svg width="900" height="1100" style="position: absolute; top: 0; left: 0; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="10" refY="3" orient="auto">
+                    <polygon points="0 0, 12 3, 0 6" fill="#333" />
+                </marker>
+                <marker id="arrowhead-blue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+                    <polygon points="0 0, 10 3, 0 6" fill="#607d8b" />
+                </marker>
+            </defs>
+
+            <!-- Main flow arrows -->
+            <path class="arrow" d="M 250 260 L 250 380" />
+            <path class="arrow" d="M 250 560 L 250 680" />
+
+            <!-- Metadata connection arrow -->
+            <path class="arrow-metadata" d="M 460 480 L 500 480" />
+        </svg>
+
+        <div class="title">Data Harmonization Pipeline</div>
+
+        <!-- Stage 1: Raw Data -->
+        <div class="stage-box stage-raw">
+            <div class="stage-title">Raw Data Sources</div>
+            <div class="stage-content">
+                <strong>11 studies</strong> with heterogeneous formats:<br>
+                • Fold-change (FC)<br>
+                • EC<sub>50</sub> values<br>
+                • IC<sub>50</sub> values<br>
+                • K<sub>d</sub> measurements
+            </div>
+        </div>
+
+        <!-- Stage 2: Standardization -->
+        <div class="stage-box stage-standardization">
+            <div class="stage-title">Standardization</div>
+            <div class="stage-content">
+                • All values → log<sub>10</sub>(FC)<br>
+                • Context tier assignment<br>
+                • Quality scoring<br>
+                • Provenance tracking
+            </div>
+        </div>
+
+        <!-- Stage 3: Harmonized -->
+        <div class="stage-box stage-harmonized">
+            <div class="stage-title">Harmonized Dataset</div>
+            <div class="stage-content">
+                <strong>26 observations</strong> (23 complete)<br>
+                • Unified log<sub>10</sub>(FC) scale<br>
+                • Full provenance tracking<br>
+                • Quality-controlled
+            </div>
+        </div>
+
+        <!-- Metadata Box -->
+        <div class="metadata-box" style="top: 350px;">
+            <div class="metadata-title">Metadata Tracked</div>
+            <ul class="metadata-list">
+                <li>Study source</li>
+                <li>Assay type</li>
+                <li>HIV-1 subtype</li>
+                <li>Context tier</li>
+                <li>Quality score</li>
+                <li>Provenance chain</li>
+                <li>Observation ID</li>
+                <li>Validation flags</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

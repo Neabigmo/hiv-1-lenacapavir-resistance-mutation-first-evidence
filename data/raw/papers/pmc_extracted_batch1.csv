@@ -1,0 +1,14 @@
+Source,Mutation,FC,EC50_nM,Context,Subtype,Quality,Notes,Sample_Size
+PMC8092519,GCSMs_median,0.8,NA,In_vitro,Mixed,3,Treatment-naive isolates,15
+PMC8092519,GCSMs_median,0.8,NA,In_vitro,Mixed,3,Treatment-experienced isolates,36
+PMC8092519,SDM_GCSMs,1.0,NA,In_vitro,Mixed,3,Site-directed mutagenesis,19
+PMC8092519,Multiclass_resistant,0.65,NA,In_vitro,Mixed,3,No cross-resistance,40
+PMC8092519,WT,NA,0.095,In_vitro,B,3,Wild-type EC50,NA
+PMC12077089,L56V,72,NA,In_vitro,Mixed,3,Steric clash with di-fluoro-benzyl,10057
+PMC12077089,N57H,4890,NA,In_vitro,Mixed,3,H-bond loss,10057
+PMC12077089,L56V,NA,NA,Fitness,Mixed,3,0.6% WT infectivity,NA
+PMC12077089,N57H,NA,NA,Fitness,Mixed,3,12% WT infectivity,NA
+PMC12077089,Q67H,NA,NA,Natural,Mixed,3,0.12% prevalence,10057
+PMC12077089,All_RAMs,NA,NA,Natural,Mixed,3,0.51% overall prevalence,10057
+PMC12077089,Impaired_mutants,NA,NA,Fitness,Mixed,3,74% show impaired infectivity (40/54),54
+PMC12077089,CAPELLA_RAMs,NA,NA,Clinical,Mixed,3,19% emergence (14/72 patients),72

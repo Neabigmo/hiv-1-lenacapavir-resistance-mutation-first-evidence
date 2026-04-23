@@ -1,0 +1,12 @@
+Paper,Mutation,Type,Value,FC,Context,Notes,Source,Subtype,Infectivity_WT
+JAC2025_Uganda,T107A,Prevalence,0.9%,0.6,Natural,5/546 participants,JAC2025,Mixed_A1_D,NA
+JAC2025_Uganda,T107A_SubtypeA1,Prevalence,60%,0.6,Natural,3/5 cases in A1,JAC2025,Subtype_A1,NA
+JAC2025_Uganda,T107A_SubtypeD,Prevalence,40%,0.6,Natural,2/5 cases in D,JAC2025,Subtype_D,NA
+JAC2025_Uganda,L56M,Prevalence,47.3%,NA,Natural,258/546 participants,JAC2025,Mixed_A1_D,NA
+JAC2025_Uganda,L56M_SubtypeA1,Prevalence,87.2%,NA,Natural,Predominantly A1,JAC2025,Subtype_A1,NA
+JAC2025_Uganda,L56M_SubtypeD,Prevalence,3.1%,NA,Natural,Rare in D,JAC2025,Subtype_D,NA
+JAC2025_Uganda,T107S,Prevalence,1.6%,1.3,Natural,10/546 participants,JAC2025,Mixed_A1_D,NA
+JAC2025_Uganda,K70R,Prevalence,0.2%,NA,Natural,1/546 participants,JAC2025,Mixed_A1_D,NA
+JAC2025_Uganda,Q67H+T107A,Resistance_score,60,NA,Literature,High-level resistance,JAC2025,Subtype_B,NA
+JAC2025_Uganda,Q67H,Resistance_score,30,NA,Literature,Low-level resistance,JAC2025,Subtype_B,NA
+JAC2025_Uganda,Minor_mutations_overall,Prevalence,1.6%,NA,Natural,9/546 total (95%CI 0.8-3.1%),JAC2025,Mixed_A1_D,NA

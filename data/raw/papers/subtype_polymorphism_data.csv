@@ -1,0 +1,13 @@
+Paper,Mutation,Type,Value,FC,Context,Notes,Source
+Clade_study,M66I,Prevalence,0.05%,NA,Subtype_C,Natural polymorphism,PMID36411257
+Clade_study,Q67H,Prevalence,0.05%,NA,Subtype_C,Natural polymorphism,PMID36411257
+Clade_study,T107N,Prevalence,0.05%,NA,CRF01_AE,Natural polymorphism,PMID36411257
+Clade_study,M66C,Prevalence,4.18%,NA,All_clades,Polymorphic at RAM position,PMID36411257
+Clade_study,Q67K,Prevalence,3.84%,NA,All_clades,Polymorphic at RAM position,PMID36411257
+Clade_study,T107L,Prevalence,4.03%,NA,All_clades,Polymorphic at RAM position,PMID36411257
+Clade_study,N74R,Prevalence,2.81%,NA,All_clades,Polymorphic at RAM position,PMID36411257
+Clade_study,K70R,Prevalence,0.34%,NA,All_clades,Polymorphic at RAM position,PMID36411257
+Clade_study,RAM_overall,Prevalence,0.14%,NA,All_clades,3/2031 sequences,PMID36411257
+Clade_study,Conservation,Prevalence,63%,NA,All_clades,Conserved positions,PMID36411257
+Uganda_A1D,T107A,Prevalence,1.6%,NA,Subtype_A1_D,Minor mutation most prevalent,PMID39881519
+Uganda_A1D,Major_RAMs,Prevalence,0%,NA,Subtype_A1_D,No M66I or Q67H found,PMID39881519

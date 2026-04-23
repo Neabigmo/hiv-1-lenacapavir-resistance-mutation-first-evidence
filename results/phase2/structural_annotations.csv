@@ -1,0 +1,9 @@
+,region,binding_site,mechanism
+L56V,NTD-CTD_interface,hydrophobic_pocket,steric_clash
+N57H,NTD-CTD_interface,hydrophobic_pocket,H-bond_loss
+M66I,NTD-CTD_interface,hydrophobic_pocket,steric_hindrance
+Q67H,NTD-CTD_interface,hydrophobic_pocket,conformational_switch
+K70R,NTD-CTD_interface,adjacent,electrostatic
+N74D,NTD-CTD_interface,hydrophobic_pocket,electrostatic_repulsion
+A105T,CTD,distal,compensatory
+T107N,CTD,distal,unknown

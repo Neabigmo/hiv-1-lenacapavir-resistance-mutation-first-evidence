@@ -1,0 +1,4 @@
+combination,observed_log10fc,observed_fc,m66i_alone_log10fc,m66i_alone_fc,difference_from_m66i,pattern,note
+M66I+N74D+A105T,3.126131407261985,1337.0,3.505149978319906,3199.999999999999,-0.3790185710579208,putative_compensatory,Lower than M66I alone (3200-fold)
+M66I+A105T,2.0453229787866576,111.0,3.505149978319906,3199.999999999999,-1.4598269995332482,putative_compensatory,Lower than M66I alone (3200-fold)
+M66I+T107A,2.369215857410143,234.0,3.505149978319906,3199.999999999999,-1.1359341209097629,putative_compensatory,Lower than M66I alone (3200-fold)

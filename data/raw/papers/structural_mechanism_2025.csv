@@ -1,0 +1,7 @@
+Source,Mutation,FC,EC50,Context,Subtype,Quality,Notes,PDB_ID
+Structural_2025,M66I,3200,444nM,In_vitro,B,3,KFA-027 vs M66I; >20-fold improvement over LEN,9N0V
+Structural_2025,LEN_binding,NA,NA,Structural,B,3,LEN bound to CA hexamer,6VKV
+Structural_2025,M66I_apo,NA,NA,Structural,B,3,Apo CA(M66I) hexamer structure,7RAO
+DDI_2024,Lenacapavir,NA,NA,DDI,Mixed,3,80% of 1073 comedications have no significant DDI,NA
+Mechanism_2025,LEN_core,NA,NA,Mechanism,B,3,Disrupts core integrity while stabilizing lattice,NA
+Mechanism_2025,LEN_vs_PF74,NA,NA,Mechanism,B,3,LEN permits docking but blocks nuclear import,NA

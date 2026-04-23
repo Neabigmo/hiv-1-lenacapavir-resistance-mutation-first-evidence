@@ -1,0 +1,9 @@
+Source,Mutation,FC,EC50,Context,Subtype,Quality,Notes,Reference
+NATAP2022,Q67H,6.0,,In_vitro,Mixed,3,6-fold resistance,https://www.natap.org/2022/HIV/011422_05.htm
+NATAP2022,M66I,>3200,,In_vitro,Mixed,3,>3200-fold resistance; 1.5% replication capacity,https://www.natap.org/2022/HIV/011422_05.htm
+NATAP2022,WT,,105pmol/l,In_vitro,Mixed,3,MT-4 cells EC50,https://www.natap.org/2022/HIV/011422_05.htm
+NATAP2022,WT,,32pmol/l,In_vitro,Mixed,3,Primary CD4+ T cells EC50,https://www.natap.org/2022/HIV/011422_05.htm
+NATAP2022,WT,,56pmol/l,In_vitro,Mixed,3,Macrophages EC50,https://www.natap.org/2022/HIV/011422_05.htm
+NATAP2022,WT,,885pmol/l,In_vitro,HIV-2,3,HIV-2 isolates EC50,https://www.natap.org/2022/HIV/011422_05.htm
+NATAP2022,Clinical_isolates,,0.24nmol/l,Clinical,A/B/C/D/G/H,3,Mean EC50 across subtypes (0.15-0.36 range),https://www.natap.org/2022/HIV/011422_05.htm
+CALIBRATE,Treatment_naive,1.0,,Clinical,Mixed,3,Mean FC 0.5-2.5 range in 182 participants,https://www.natap.org/2022/HIV/011422_05.htm

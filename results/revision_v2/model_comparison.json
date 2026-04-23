@@ -1,0 +1,35 @@
+[
+  {
+    "model_name": "M0_intercept_only",
+    "aic": 78.24632069478254,
+    "bic": 79.38181491071168,
+    "log_likelihood": -38.12316034739127,
+    "n_params": 1,
+    "residual_std": 1.2694581775050917
+  },
+  {
+    "model_name": "M1_mutation_only",
+    "aic": 40.92060780736539,
+    "bic": 59.08851526223179,
+    "log_likelihood": -4.460303903682696,
+    "n_params": 16,
+    "residual_std": 0.29375409402255886,
+    "r_squared": 0.9464535034509136
+  },
+  {
+    "model_name": "M2_mutation_subtype",
+    "aic": NaN,
+    "bic": NaN,
+    "log_likelihood": -7.65936109064228,
+    "n_params": 18,
+    "residual_std": 0.5324745141276247,
+    "random_effect_var": 2.504790391952959e-10,
+    "converged": true
+  },
+  {
+    "model_name": "M3_mutation_study",
+    "aic": NaN,
+    "bic": NaN,
+    "error": "Singular matrix"
+  }
+]

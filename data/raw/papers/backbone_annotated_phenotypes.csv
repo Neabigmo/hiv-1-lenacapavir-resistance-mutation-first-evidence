@@ -1,0 +1,8 @@
+Paper,Mutation,Type,Value,FC,Context,Notes,Source,Subtype
+mBio2022,Q67H,Kd_FC,5,5,In_vitro,Binding affinity,mBio2022,Subtype_B
+mBio2022,N74D,Kd_FC,20,20,In_vitro,Binding affinity,mBio2022,Subtype_B
+mBio2022,Q67H/N74D,Kd_FC,150,150,In_vitro,Double mutant,mBio2022,Subtype_B
+mBio2022,Q67H,Viral_susceptibility,7,7,In_vitro,Reduced potency to LEN,mBio2022,Subtype_B
+mBio2022,N74D,Viral_susceptibility,10,10,In_vitro,Resistance to LEN,mBio2022,Subtype_B
+PMC12077089,L56V,EC50_FC,72,72,In_vitro,Steric clash,PMC12077089,CRF02_AG
+PMC12077089,N57H,EC50_FC,4890,4890,In_vitro,H-bond loss,PMC12077089,Subtype_D

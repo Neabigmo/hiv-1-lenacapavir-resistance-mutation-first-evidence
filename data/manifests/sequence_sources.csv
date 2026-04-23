@@ -1,0 +1,4 @@
+Source,URL,Access_Method,Target_Data,Status,Notes
+LANL_HIV_DB,https://www.hiv.lanl.gov/,Web_interface,Gag/capsid sequences pre-2022,pending,LEN-naïve sequences
+LANL_SI_Alignments,https://www.hiv.lanl.gov/content/sequence/HIV/SI_alignments/datasets.html,Download,Special Interest aligned datasets,pending,Check for capsid alignments
+GenBank,https://www.ncbi.nlm.nih.gov/nuccore/,NCBI_API,HIV-1 gag sequences,pending,Bulk download via Entrez

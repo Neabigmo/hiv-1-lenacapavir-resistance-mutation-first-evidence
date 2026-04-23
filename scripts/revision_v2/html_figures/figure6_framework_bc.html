@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1400, height=700">
+    <title>Surveillance Framework and Validation Roadmap</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            background: white;
+            padding: 30px;
+        }
+
+        .container {
+            width: 1340px;
+            height: 640px;
+            margin: 0 auto;
+            position: relative;
+            display: flex;
+            gap: 20px;
+        }
+
+        .panel {
+            flex: 1;
+            position: relative;
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            background: #fafafa;
+        }
+
+        .panel-title {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        /* Panel B: Surveillance Framework */
+        .layer {
+            position: absolute;
+            left: 20px;
+            right: 20px;
+            border: 2.5px solid;
+            border-radius: 10px;
+            padding: 12px;
+        }
+
+        .layer-title {
+            font-size: 12px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 6px;
+        }
+
+        .layer-content {
+            font-size: 10px;
+            text-align: center;
+            line-height: 1.4;
+        }
+
+        .layer1 {
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            border-color: #1976d2;
+            top: 50px;
+            height: 70px;
+        }
+
+        .layer2 {
+            background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+            border-color: #f57c00;
+            top: 150px;
+            height: 140px;
+        }
+
+        .layer3 {
+            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+            border-color: #388e3c;
+            top: 320px;
+            height: 90px;
+        }
+
+        .layer4 {
+            background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
+            border-color: #d32f2f;
+            top: 440px;
+            height: 70px;
+        }
+
+        .priority-boxes {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 8px;
+            gap: 8px;
+        }
+
+        .priority-box {
+            flex: 1;
+            padding: 8px;
+            border-radius: 6px;
+            text-align: center;
+            border: 2px solid;
+            font-size: 9px;
+            font-weight: 600;
+        }
+
+        .priority-high {
+            background: linear-gradient(135deg, #ffcdd2 0%, #ef9a9a 100%);
+            border-color: #c62828;
+            color: #b71c1c;
+        }
+
+        .priority-medium {
+            background: linear-gradient(135deg, #ffe0b2 0%, #ffcc80 100%);
+            border-color: #ef6c00;
+            color: #e65100;
+        }
+
+        .priority-low {
+            background: linear-gradient(135deg, #bbdefb 0%, #90caf9 100%);
+            border-color: #1565c0;
+            color: #0d47a1;
+        }
+
+        .priority-label {
+            font-size: 11px;
+            font-weight: 700;
+            margin-bottom: 3px;
+        }
+
+        .arrow-down {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 12px solid transparent;
+            border-right: 12px solid transparent;
+            border-top: 15px solid #333;
+        }
+
+        .arr1 { top: 125px; }
+        .arr2 { top: 295px; }
+        .arr3 { top: 415px; }
+
+        .side-note {
+            position: absolute;
+            right: 5px;
+            top: 50%;
+            transform: translateY(-50%) rotate(-90deg);
+            font-size: 9px;
+            font-weight: 600;
+            color: #7b1fa2;
+            background: #f3e5f5;
+            padding: 4px 10px;
+            border-radius: 12px;
+            border: 1.5px solid #7b1fa2;
+        }
+
+        /* Panel C: Validation Roadmap */
+        .roadmap-item {
+            position: absolute;
+            left: 20px;
+            right: 20px;
+            height: 85px;
+            border: 2px solid;
+            border-radius: 8px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .status-icon {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 700;
+            border: 2px solid;
+            flex-shrink: 0;
+            margin-right: 12px;
+        }
+
+        .roadmap-content {
+            flex: 1;
+        }
+
+        .roadmap-title {
+            font-size: 12px;
+            font-weight: 700;
+            margin-bottom: 3px;
+        }
+
+        .roadmap-desc {
+            font-size: 10px;
+            line-height: 1.3;
+        }
+
+        .priority-badge {
+            width: 60px;
+            text-align: center;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 4px;
+            border-radius: 4px;
+            border: 2px solid;
+            flex-shrink: 0;
+        }
+
+        .item1 {
+            top: 50px;
+            background: linear-gradient(135deg, #ffcdd2 0%, #ffebee 100%);
+            border-color: #c62828;
+        }
+
+        .item2 {
+            top: 155px;
+            background: linear-gradient(135deg, #ffcdd2 0%, #ffebee 100%);
+            border-color: #c62828;
+        }
+
+        .item3 {
+            top: 260px;
+            background: linear-gradient(135deg, #ffcdd2 0%, #ffebee 100%);
+            border-color: #c62828;
+        }
+
+        .item4 {
+            top: 365px;
+            background: linear-gradient(135deg, #ffe0b2 0%, #fff3e0 100%);
+            border-color: #ef6c00;
+        }
+
+        .status-ongoing {
+            background: #c8e6c9;
+            border-color: #388e3c;
+            color: #1b5e20;
+        }
+
+        .status-needed {
+            background: #ffcdd2;
+            border-color: #d32f2f;
+            color: #b71c1c;
+        }
+
+        .status-partial {
+            background: #ffe0b2;
+            border-color: #f57c00;
+            color: #e65100;
+        }
+
+        .badge-high {
+            background: white;
+            border-color: #c62828;
+            color: #c62828;
+        }
+
+        .badge-medium {
+            background: white;
+            border-color: #ef6c00;
+            color: #ef6c00;
+        }
+
+        .legend {
+            position: absolute;
+            bottom: 15px;
+            left: 20px;
+            font-size: 9px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .legend-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            border: 1.5px solid;
+        }
+
+        .timeline {
+            position: absolute;
+            bottom: 15px;
+            right: 20px;
+            font-size: 10px;
+            font-weight: 600;
+            font-style: italic;
+            background: #fff9c4;
+            padding: 5px 12px;
+            border-radius: 15px;
+            border: 1.5px solid #f57f17;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Panel B: Surveillance Framework -->
+        <div class="panel">
+            <div class="panel-title">B. Mutation-First Surveillance Framework</div>
+
+            <div class="layer layer1">
+                <div class="layer-title">Layer 1: Clinical Sequence Surveillance</div>
+                <div class="layer-content">Genotype failures → Flag CA mutations</div>
+            </div>
+
+            <div class="arrow-down arr1"></div>
+
+            <div class="layer layer2">
+                <div class="layer-title">Layer 2: Mutation-Level Triage</div>
+                <div class="priority-boxes">
+                    <div class="priority-box priority-high">
+                        <div class="priority-label">HIGH</div>
+                        M66I, N57H<br>(&gt;1000×)
+                    </div>
+                    <div class="priority-box priority-medium">
+                        <div class="priority-label">MEDIUM</div>
+                        Q67H, K70R<br>(100-1000×)
+                    </div>
+                    <div class="priority-box priority-low">
+                        <div class="priority-label">LOW</div>
+                        Other<br>(&lt;100×)
+                    </div>
+                </div>
+            </div>
+
+            <div class="arrow-down arr2"></div>
+
+            <div class="layer layer3">
+                <div class="layer-title">Layer 3: Context Refinement (Optional)</div>
+                <div class="layer-content">
+                    Check subtype | combinations | compensatory<br>
+                    <span style="font-size: 8px; font-style: italic; color: #666;">
+                        Note: Subtype limited incremental value
+                    </span>
+                </div>
+            </div>
+
+            <div class="arrow-down arr3"></div>
+
+            <div class="layer layer4">
+                <div class="layer-title">Layer 4: Clinical Action</div>
+                <div class="layer-content">
+                    <strong>High:</strong> Regimen change | <strong>Med:</strong> Monitor | <strong>Low:</strong> Follow-up
+                </div>
+            </div>
+
+            <div class="side-note">Mutation signal stable</div>
+        </div>
+
+        <!-- Panel C: Validation Roadmap -->
+        <div class="panel">
+            <div class="panel-title">C. Validation Roadmap</div>
+
+            <div class="roadmap-item item1">
+                <div class="status-icon status-ongoing">✓</div>
+                <div class="roadmap-content">
+                    <div class="roadmap-title">Expand Phenotypic Dataset</div>
+                    <div class="roadmap-desc">n&gt;50/mutation, more subtypes</div>
+                </div>
+                <div class="priority-badge badge-high">HIGH</div>
+            </div>
+
+            <div class="roadmap-item item2">
+                <div class="status-icon status-needed">○</div>
+                <div class="roadmap-content">
+                    <div class="roadmap-title">Validate Compensatory Patterns</div>
+                    <div class="roadmap-desc">M66I+A105T/T107A fitness assays</div>
+                </div>
+                <div class="priority-badge badge-high">HIGH</div>
+            </div>
+
+            <div class="roadmap-item item3">
+                <div class="status-icon status-needed">○</div>
+                <div class="roadmap-content">
+                    <div class="roadmap-title">Clinical Outcome Correlation</div>
+                    <div class="roadmap-desc">Link genotype to treatment failure</div>
+                </div>
+                <div class="priority-badge badge-high">HIGH</div>
+            </div>
+
+            <div class="roadmap-item item4">
+                <div class="status-icon status-partial">~</div>
+                <div class="roadmap-content">
+                    <div class="roadmap-title">Structural Validation</div>
+                    <div class="roadmap-desc">Co-crystals, MD simulations</div>
+                </div>
+                <div class="priority-badge badge-medium">MEDIUM</div>
+            </div>
+
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-dot status-ongoing"></div>
+                    <span>✓ Ongoing</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-dot status-partial"></div>
+                    <span>~ Partial</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-dot status-needed"></div>
+                    <span>○ Needed</span>
+                </div>
+            </div>
+
+            <div class="timeline">Timeline: 2-5 years</div>
+        </div>
+    </div>
+</body>
+</html>

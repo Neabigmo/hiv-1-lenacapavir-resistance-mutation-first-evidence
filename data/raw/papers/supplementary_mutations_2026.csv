@@ -1,0 +1,19 @@
+Mutation,FC,Context,Source,Subtype,Quality,Notes
+L56V,72.0,In_vitro,PMC12077089,CRF02_AG,3,Steric clash with di-fluoro-benzyl
+N57H,4890.0,In_vitro,PMC12077089,Subtype_D,3,H-bond loss with LEN
+K70R,,Clinical,CAPELLA_2yr,Mixed,3,Treatment-emergent
+K70H,,Clinical,CAPELLA_2yr,Mixed,3,Treatment-emergent
+K70N,,Clinical,CAPELLA_2yr,Mixed,3,Treatment-emergent
+K70S,,Clinical,CAPELLA_2yr,Mixed,3,Treatment-emergent
+M66C,,Natural,Evidence_Atlas,Mixed,2,Common polymorphism 4.18%
+Q67K,,Natural,Evidence_Atlas,Mixed,2,Common polymorphism 3.84%
+T107L,,Natural,Evidence_Atlas,Mixed,2,Common polymorphism 4.03%
+N74R,,Natural,Evidence_Atlas,Mixed,2,Common polymorphism 2.81%
+T107A,,Natural,Uganda_JAC2025,A1/D,3,1.6% prevalence in Uganda
+T107N,,Natural,Evidence_Atlas,CRF01_AE,2,0.05% prevalence
+M66I+N74D,,Clinical,CAPELLA,Mixed,3,Clinical evolution pathway
+M66I+N74D+A105T,1337.0,Clinical,CAPELLA,Mixed,3,Triple mutant with fitness restoration
+A105T,,Fitness,Evidence_Atlas,Mixed,3,"Compensatory mutation, restores >90% WT fitness"
+Q67N,,Clinical,CAPELLA_2yr,Mixed,3,"Least fitness impact, early emergence"
+N74H,,Clinical,CAPELLA_2yr,Mixed,3,Treatment-emergent
+N74K,,Clinical,CAPELLA_2yr,Mixed,3,Treatment-emergent

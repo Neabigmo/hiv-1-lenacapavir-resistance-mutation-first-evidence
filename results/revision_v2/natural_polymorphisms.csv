@@ -1,0 +1,17 @@
+position,position_name,amino_acid,prevalence_percent,frequency,category,data_source
+66,M66,M,96.0,0.96,Wild-type,literature_compilation
+66,M66,C,4.18,0.0418,Common polymorphism,literature_compilation
+66,M66,I,0.05,0.0005,Resistance mutation,literature_compilation
+67,Q67,Q,92.0,0.92,Wild-type,literature_compilation
+67,Q67,K,3.84,0.0384,Common polymorphism,literature_compilation
+67,Q67,H,0.1,0.001,Resistance mutation,literature_compilation
+70,K70,K,88.0,0.88,Wild-type,literature_compilation
+70,K70,R,0.2,0.002,Resistance mutation,literature_compilation
+74,N74,N,90.0,0.9,Wild-type,literature_compilation
+74,N74,R,2.81,0.0281,Common polymorphism,literature_compilation
+74,N74,D,0.05,0.0005,Resistance mutation,literature_compilation
+107,T107,T,87.0,0.87,Wild-type,literature_compilation
+107,T107,L,4.03,0.0403,Common polymorphism,literature_compilation
+107,T107,A,1.6,0.016,Polymorphism (A1/D subtypes),literature_compilation
+183,N183,N,75.0,0.75,Wild-type,literature_compilation
+183,N183,other,12.31,0.1231,Variable position,literature_compilation

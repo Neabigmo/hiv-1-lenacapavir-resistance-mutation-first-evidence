@@ -1,0 +1,4 @@
+combination,observation_id,log10_FC,FC,context,study,subtype
+Q67H+K70R,OBS_013,-0.2291479883578558,0.59,in_vitro,PMC9600929,B
+Q67H+K70R,OBS_025,1.2430380486862518,17.5,in_vitro,JAC2025,B
+Q67H+K70R,OBS_026,1.665580991017953,46.3,clinical,JID2025,Clinical_isolate

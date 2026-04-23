@@ -1,0 +1,7 @@
+Phase 2 Sensitivity Analysis Summary
+==================================================
+
+Jackknife bias: 0.000
+Jackknife SE: 0.349
+Outliers removed: 0
+Mean difference (outliers): 0.000

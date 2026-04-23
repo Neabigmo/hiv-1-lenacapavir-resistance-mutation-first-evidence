@@ -1,0 +1,11 @@
+Source,Mutation,FC,EC50,Context,Subtype,Quality,Notes
+PMID35028668,Q67H,NA,NA,Clinical,Mixed,3,Emerged Day 10 in 2/29 participants
+PMID35028668,Seven_RAMs,NA,NA,In_vitro,Mixed,3,Identified through in vitro selections
+PMID35028668,Baseline,NA,NA,Clinical,Mixed,3,No pre-existing resistance in 29 participants
+PMC8549334,PF74,NA,500nM,In_vitro,Mixed,3,MT-2 cells
+PMC8549334,GS-CA1,NA,240pM,In_vitro,Mixed,3,MT-4 cells; 2000-fold higher potency than PF74
+PMC8549334,M66I,NA,NA,Fitness,Mixed,3,Highest resistance but drastically decreased infectivity
+PMC8549334,Q67H,NA,NA,Clinical,Mixed,3,Emerged in humanized animal and one patient
+PMC8549334,H87Q,NA,NA,Binding,Mixed,3,Reduces CA-CypA binding by 5-fold
+PMC8549334,G89V,NA,NA,Binding,Mixed,3,Blocks CypA binding entirely
+PMC8549334,P90A,NA,NA,Binding,Mixed,3,Blocks CypA binding entirely

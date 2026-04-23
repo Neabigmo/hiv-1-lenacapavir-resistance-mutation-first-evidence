@@ -1,0 +1,10 @@
+Mutation,FC,Context,Source,Subtype,Quality,Notes
+M66I,3200,In_vitro,PMID40231850,Subtype_B,3,"Highest resistance, steric hindrance"
+M66I,Complete,In_vitro,PMC9600929,Subtype_B,3,Complete resistance to LEN+KFA-012
+Q67H,5,In_vitro,PMC9600929,Subtype_B,3,"Kd fold change, dissociation rate affected"
+N74D,20,In_vitro,PMC9600929,Subtype_B,3,"Kd fold change, both kon and koff affected"
+Q67H+N74D,150,In_vitro,PMC9600929,Subtype_B,3,Double mutant synergy
+Q67H+K70R,0.59,In_vitro,PMC9600929,Subtype_B,3,1.7-fold improved potency with KFA-012
+Q67H+K70R,,Clinical,CALIBRATE_W28,Subtype_B,3,"1/157 treatment-naive, emergent resistance"
+M66I+Q67H+K70H+N74D,,Clinical,CAPELLA_3yr,Mixed,3,19% emergence rate (14/72 patients)
+All_RAMs,,Fitness,PMID41499523,Mixed,3,All RAMs show substantial replication defects

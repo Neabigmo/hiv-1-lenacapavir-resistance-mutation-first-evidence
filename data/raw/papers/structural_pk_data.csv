@@ -1,0 +1,8 @@
+Paper,Mutation,Type,Value,FC,Context,Notes,Source
+PK_study,Lenacapavir,Half_life,10-12_weeks,NA,Subcutaneous,Long-acting formulation,PMC10698746
+PK_study,Lenacapavir,Clearance,Intestinal_excretion,NA,Major_pathway,Atropisomerism,JPET
+Binding_pocket,CPSF6,FG_motif,Conserved,NA,Capsid_interface,N57/N74/K182,PMC3795039
+Binding_pocket,NUP153,FG_motif,Common_pocket,NA,Capsid_interface,Mediates infectivity,PMC3795039
+Binding_pocket,LEN,Hydrophobic_pocket,CA_hexamer_interface,NA,Structural,Between adjacent CA subunits,Multiple
+Conservation,CypA_binding,G89_P90,Highly_conserved,NA,Natural,Across sequences,Nka2022
+Conservation,CPSF6_binding,Q4_N57_N74_A77_K182,Highly_conserved,NA,Natural,Except N183 12.31%,Nka2022

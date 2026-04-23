@@ -1,0 +1,13 @@
+Source,Mutation,FC,IC50,Context,Subtype,Quality,Notes,Sample_Size
+HIV2_CID2025,N73D,30,37.62nM,Clinical,HIV-2,3,IC50 from 1.25nM to 37.62nM,8
+HIV2_CID2025,Q66H+R69K,NA,NA,Clinical,HIV-2,3,Emerged in 1 patient,8
+HIV2_CID2025,N73D+A76V,NA,NA,Clinical,HIV-2,3,Secondary mutation at 12-17 months,8
+PK_PMC10994821,Hepatic_impaired,NA,NA,PK,Mixed,3,Half-life 12.6 days; Cmax 61.1 ng/mL,NA
+PK_PMC10994821,Normal_hepatic,NA,NA,PK,Mixed,3,Half-life 13.1 days; Cmax 23.4 ng/mL,NA
+PK_PMC10994821,Renal_impaired,NA,NA,PK,Mixed,3,Half-life 9.73 days; Cmax 51.5 ng/mL,NA
+PK_PMC10994821,Normal_renal,NA,NA,PK,Mixed,3,Half-life 13.3 days; Cmax 19.7 ng/mL,NA
+Global_JID2025,Subtype_C,NA,23.0%,Natural,C,3,Global prevalence 2010-2021,610000
+Global_JID2025,Subtype_A,NA,16.7%,Natural,A,3,Global prevalence 2010-2021,610000
+Global_JID2025,CRF01_AE,NA,9.5%,Natural,CRF01_AE,3,Global prevalence 2010-2021,610000
+Global_JID2025,CRFs_URFs,NA,29%,Natural,Mixed,3,Combined CRFs/URFs prevalence,610000
+Global_JID2025,CRF02_AG,NA,46.9%,Natural,CRF02_AG,3,West/Central Africa dominant,NA

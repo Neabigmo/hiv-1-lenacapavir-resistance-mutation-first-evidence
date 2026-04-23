@@ -1,0 +1,9 @@
+Paper,Mutation,Type,Value,FC,Context,Notes,Source,Subtype,Infectivity_WT
+PMC8092519,Drug_resistant_isolates,EC50_FC,0.65,0.65,Clinical,Median FC (n=40),PMC8092519,Subtype_B,NA
+PMC8092519,Drug_resistant_range,EC50_FC,0.25-1.1,NA,Clinical,FC range (n=40),PMC8092519,Subtype_B,NA
+PMC8092519,GCSM_mutants,EC50_FC,1.0,1.0,In_vitro,Median FC (n=19),PMC8092519,Subtype_B,NA
+PMC8092519,GCSM_range,EC50_FC,0.7-1.9,NA,In_vitro,FC range (n=19),PMC8092519,Subtype_B,NA
+PMC8092519,Treatment_naive,EC50_FC,0.8,0.8,Clinical,Median FC (n=15),PMC8092519,Subtype_B,NA
+PMC8092519,Treatment_experienced,EC50_FC,0.8,0.8,Clinical,Median FC (n=36),PMC8092519,Subtype_B,NA
+PMC8092519,WT_EC50,EC50,95,NA,In_vitro,Wild-type EC50 (pM),PMC8092519,Subtype_B,NA
+PMC8092519,GCSM_EC50,EC50,102,NA,In_vitro,GCSM average EC50 (pM),PMC8092519,Subtype_B,NA

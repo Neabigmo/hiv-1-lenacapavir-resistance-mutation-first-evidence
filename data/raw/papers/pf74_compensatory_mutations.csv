@@ -1,0 +1,8 @@
+Paper,Mutation,Type,Value,FC,Context,Notes,Source,Subtype,Infectivity_WT
+JVI2014,Q67H,Resistance,Low,NA,In_vitro,PF74 resistance,JVI2014,Subtype_B,NA
+JVI2014,K70R,Resistance,Low,NA,In_vitro,PF74 resistance + impaired infectivity,JVI2014,Subtype_B,NA
+JVI2014,T107N,Resistance,Low,NA,In_vitro,PF74 resistance,JVI2014,Subtype_B,NA
+JVI2014,L111I,Infectivity,Impaired,NA,In_vitro,Impaired infectivity,JVI2014,Subtype_B,NA
+JVI2014,H87P,Compensatory,Partial_restoration,NA,In_vitro,Restores fitness at 67/107,JVI2014,Subtype_B,NA
+JVI2014,5Mut,Replication,Markedly_impaired,NA,In_vitro,Q67H+K70R+H87P+T107N+L111I,JVI2014,Subtype_B,NA
+JVI2014,5Mut,Resistance,Strong,NA,In_vitro,Combined resistance to PF74,JVI2014,Subtype_B,NA

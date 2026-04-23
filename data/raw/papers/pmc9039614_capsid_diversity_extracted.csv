@@ -1,0 +1,9 @@
+Source,Mutation,FC,Context,Subtype,Quality,Notes
+PMC9039614,M66I,<0.2%,Natural,B,3,Prevalence in subtype B
+PMC9039614,M66I,<0.2%,Natural,C,3,Prevalence in subtype C
+PMC9039614,M66I,<0.2%,Natural,A1,3,Prevalence in subtype A1
+PMC9039614,N74S,10%,Natural,CRF45_cpx,2,Only 10 sequences available
+PMC9039614,Conservation,89%,Natural,Overall,3,HIV-1 p24 conservation
+PMC9039614,Conservation,94%,Natural,Group_M,3,Group M conservation
+PMC9039614,Conservation,96%,Natural,Group_N,3,Group N conservation
+PMC9039614,Conservation,95%,Natural,Group_O,3,Group O conservation

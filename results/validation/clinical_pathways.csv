@@ -1,0 +1,5 @@
+Pathway,Mutations,Timeframe,Clinical_Impact
+CAPELLA primary,M66I → M66I+N74D → M66I+N74D+A105T,Weeks to months,Virologic failure
+CAPELLA secondary,Q67H → Q67H+N74D,Weeks to months,Virologic failure
+Natural polymorphism,K70R (subtype A1/D baseline),Pre-existing,Reduced susceptibility
+In vitro selection,"N57H, M66I (high-level resistance)",Serial passage,High-level resistance
